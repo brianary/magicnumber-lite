@@ -101,7 +101,7 @@ namespace MagicNumberLite
 					if (match.Matches(databytes)) return match as DataType;
 				}
 			}
-			return null;
+			return new DataType("","application/octet-stream","Unknown");
 		}
 	}
 }
