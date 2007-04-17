@@ -37,7 +37,6 @@ namespace MagicNumberLite
 		{
 			if (Bytes == null && data == null) return true;
 			if (Bytes == null || data == null) return false;
-			if (Bytes.Length != data.Length) return false;
 			for (int i = 0; i < Bytes.Length; i++)
 				if (Bytes[i] != data[i])
 					return false;
@@ -54,7 +53,7 @@ namespace MagicNumberLite
 			Matches = new Dictionary<long, Dictionary<byte, Match[]>>();
 			XmlDocument xml = new XmlDocument();
 			xml.Load(Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetAssembly(typeof(Inspector)).Location),
-				ConfigurationManager.AppSettings["EasyMagicXml"]));
+				ConfigurationManager.AppSettings["MagicNumberLiteXml"]));
 			foreach (XmlElement offset in xml.DocumentElement.ChildNodes)
 			{
 				Dictionary<byte, Match[]> bundle = new Dictionary<byte, Match[]>();
@@ -91,15 +90,13 @@ namespace MagicNumberLite
 		{
 			foreach (long offset in Matches.Keys)
 			{
-				byte firstbyte = Convert.ToByte(data.PeekChar());
-				if (!Matches[offset].ContainsKey(firstbyte)) continue;
-				foreach (Match match in Matches[offset][firstbyte])
-				{
-					byte[] databytes = new byte[match.Bytes.Length];
-					data.BaseStream.Seek(offset, SeekOrigin.Begin);
-					data.Read(databytes, 0, databytes.Length);
-					if (match.Matches(databytes)) return match as DataType;
-				}
+				data.BaseStream.Seek(offset, SeekOrigin.Begin);
+				byte[] databytes = new byte[64];
+				data.BaseStream.Seek(offset, SeekOrigin.Begin);
+				data.Read(databytes, 0, databytes.Length);
+				if (Matches[offset].ContainsKey(databytes[0]))
+					foreach (Match match in Matches[offset][databytes[0]])
+						if (match.Matches(databytes)) return match as DataType;
 			}
 			return new DataType("","application/octet-stream","Unknown");
 		}
