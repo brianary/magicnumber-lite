@@ -1,0 +1,2283 @@
+<?xml version='1.0'?>
+<magic endianess='big'>
+	<offset at='0'>
+		<first byte='00'>
+			<match bytes='00 C0' name='hp300 (68020+68881) BSD' mime='application/octet-stream' ext=''/>
+			<match bytes='00 9E 6E 72 76 FF' name='NRV archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 80' name='hp200 (68010) BSD' mime='application/octet-stream' ext=''/>
+			<match bytes='00 6D 03' name='mcrypt 2.5 encrypted data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 6D 02' name='mcrypt 2.2 encrypted data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 64' name='Atari 68xxx CPX file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 50 00 14' name='PFT archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 4D 56 52 34 0A 49' name='MapleVr4 library' mime='application/octet-stream' ext=''/>
+			<match bytes='00 4D 52 4D' name='Minolta Dimage camera raw image data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 4C 4F 43 41 54 45' name='GNU findutils locate database data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 42 4F 4E 4B' name='BONK' mime='application/octet-stream' ext=''/>
+			<match bytes='00 1E 84 90 00' name='Netscape folder cache' mime='application/octet-stream' ext=''/>
+			<match bytes='00 12 D6 87' name='X image' mime='application/octet-stream' ext=''/>
+			<match bytes='00 0F 42 49' name='Netscape Communicator address book' mime='application/octet-stream' ext=''/>
+			<match bytes='00 0F 42 44 00 00 00 00 00 00 01 00 00 00 00 02 00 00 00 02 00 00 04 00' name='Netscape Address book' mime='application/octet-stream' ext=''/>
+			<match bytes='00 0A 53 4D 4A 50 45 47' name='SMJPEG' mime='application/octet-stream' ext=''/>
+			<match bytes='00 08 04 56' name='SunOS core file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 06 15 61' name='Berkeley DB' mime='application/x-dbm' ext='dbm'/>
+			<match bytes='00 06' name='TTComp archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 05 31 62' name='Berkeley DB 1.85/1.86' mime='application/octet-stream' ext=''/>
+			<match bytes='00 05 16 07' name='AppleDouble encoded Macintosh file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 05 16 00' name='AppleSingle encoded Macintosh file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 04 1E 8A 80' name='3b2 core file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 04 00 00' name='Maple help database' mime='application/octet-stream' ext=''/>
+			<match bytes='00 02 00 07 00' name='MSVC .sbr' mime='application/octet-stream' ext=''/>
+			<match bytes='00 01 19 54' name='Unix Fast File system [v1] (big-endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='00 01 12 57' name='Core file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 01 00 08' name='GEM Image data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 01 00 00 00' name='TrueType font data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 FF 6D' name='very old archive' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 FF 65' name='old archive' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 94 C2' name='Artisan image data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 81 6C' name='apl workspace' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 33 0D' name='Mirage Assembler m.out executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 07 97' name='Plan 9 executable, MIPS R4000 LE' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 06 47' name='Plan 9 executable, ARM 7-something' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 05 17' name='Plan 9 executable, MIPS R4000 BE' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 04 07' name='Plan 9 executable, MIPS R3000' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 02 47' name='Plan 9 executable, Intel 960' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 02 00' name='Lotus 1-2-3' mime='application/x-123' ext=''/>
+			<match bytes='00 00 01 9E 00 00 00 00 00 00 00 00 00 00 00 00' name='BEA TUXEDO DES mask data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 87' name='Convex SOFF checkpoint' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 85' name='Convex SOFF core' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 81' name='Convex SOFF' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 4F' name='Convex old-style pre-paged, non-swapped executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 4D' name='Convex old-style pre-paged executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 4B' name='Convex old-style demand paged executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 47' name='Convex old-style object' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 24 00 91' name='Maple worksheet' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 24' name='Maple something' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 0B' name='old sun-2 demand paged executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 08' name='old sun-2 pure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 07' name='old sun-2 executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 06' name='68k Blit mpx/mux executable' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 01 00' name='MS Windows icon resource' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 53' name='dar archive' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 31 00 00 00 30 00 00 00 30 00 00 00 32 00 00 00 30 00 00 00 30 00 00 00 33' name='old ACE/gr binary file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 18 01 00 00 00' name='MS Windows recycled bin info' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 0C 6A 50 20 20 0D 0A 87 0A' name='JPEG 2000 image data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 04' name='X11 SNF font data, MSB first' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 03' name='Jaleo XFS file' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 01' name='JVT NAL sequence' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 20 00 00 00 FF' name='MSVC .res' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00' name='old timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 05 00' name='old timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 00' name='old timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00' name='old timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00' name='old timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00' name='old timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 00' name='DCX multi-page PCX image data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='01'>
+			<match bytes='01 B3 A1 13 22' name='AFS Dump' mime='application/octet-stream' ext=''/>
+			<match bytes='01 A5' name='Tower32/800 68010' mime='application/octet-stream' ext=''/>
+			<match bytes='01 A0' name='Tower32/800 68020' mime='application/octet-stream' ext=''/>
+			<match bytes='01 98' name='Tower32/600/400 68020 object' mime='application/octet-stream' ext=''/>
+			<match bytes='01 97' name='Apollo m68k COFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 95' name='Tower/XP rel 3 object' mime='application/octet-stream' ext=''/>
+			<match bytes='01 94' name='apollo a88k COFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 90' name='Tower/XP rel 3 object' mime='application/octet-stream' ext=''/>
+			<match bytes='01 8D' name='Tower/XP rel 2 object' mime='application/octet-stream' ext=''/>
+			<match bytes='01 88' name='Perkin-Elmer executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 82' name='MIPSEL-BE Ucode' mime='application/octet-stream' ext=''/>
+			<match bytes='01 80' name='MIPSEB Ucode' mime='application/octet-stream' ext=''/>
+			<match bytes='01 7F' name='CLIPPER COFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 7D' name='CLIPPER COFF executable (VAX #)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 7A' name='amd 29k coff noprebar executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 75' name='i386 COFF object' mime='application/octet-stream' ext=''/>
+			<match bytes='01 71' name='WE32000 COFF executable (TV)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 70' name='WE32000 COFF' mime='application/octet-stream' ext=''/>
+			<match bytes='01 6D' name='88K BCS executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 6C' name='68K BCS executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 67 70 67' name='GPG key trust database' mime='application/octet-stream' ext=''/>
+			<match bytes='01 66 63 70' name='X11 Portable Compiled Font data' mime='application/octet-stream' ext=''/>
+			<match bytes='01 66' name='MIPSEL-BE MIPS-II ECOFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 63' name='MIPSEB MIPS-II ECOFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 62' name='MIPSEL-BE ECOFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 60' name='MIPSEB ECOFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 5F' name='370 XA sysV executable ' mime='application/octet-stream' ext=''/>
+			<match bytes='01 5D' name='SVR2 executable (USS/370)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 5C' name='SVR2 pure executable (Amdahl-UTS)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 5A 5A 5A 5A 5A 01' name='3DO &quot;Opera&quot; file system' mime='application/octet-stream' ext=''/>
+			<match bytes='01 5A 50 4B 01' name='ZPack archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='01 5A' name='370 XA sysV pure executable ' mime='application/octet-stream' ext=''/>
+			<match bytes='01 59' name='SVR2 executable (Amdahl-UTS)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 58' name='SVR2 pure executable (USS/370)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 55' name='Encore unsupported executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 54' name='Encore' mime='application/octet-stream' ext=''/>
+			<match bytes='01 53 68 61 72 70 20 4A 69 73 61 6B 75 4D 65 6C 6F 64 79' name='SHARP Cell-Phone ringing Melody' mime='application/octet-stream' ext=''/>
+			<match bytes='01 52' name='mc68k executable (shared demand paged)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 51' name='mc68k executable (shared)' mime='application/octet-stream' ext=''/>
+			<match bytes='01 50' name='mc68k COFF' mime='application/octet-stream' ext=''/>
+			<match bytes='01 42' name='MIPSEL-BE MIPS-III ECOFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 40' name='MIPSEB MIPS-III ECOFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 3C' name='SGI image data' mime='application/octet-stream' ext=''/>
+			<match bytes='01 1E' name='Berkeley vfont data' mime='application/octet-stream' ext=''/>
+			<match bytes='01 1C' name='Curses screen image' mime='application/octet-stream' ext=''/>
+			<match bytes='01 1B' name='Curses screen image' mime='application/octet-stream' ext=''/>
+			<match bytes='01 11' name='0421 Alliant compact executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 10' name='LANalyzer capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='01 09' name='PDP-11 separate I&amp;D' mime='application/octet-stream' ext=''/>
+			<match bytes='01 08 0B 08 EF 00 9E 32 30 36 31' name='PUCrunch archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='01 08' name='unknown pure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 07' name='unknown machine executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 06' name='VAX-order2 68k Blit mpx/mux executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 05' name='ctab data' mime='application/octet-stream' ext=''/>
+			<match bytes='01 04' name='shared library' mime='application/octet-stream' ext=''/>
+			<match bytes='01 03 20 10' name='Minix-386 executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 03 20 04' name='Linux-8086 executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 03 10 10' name='Minix-386 impure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 03 10 04' name='Linux-8086 impure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='01 01 01 01' name='MMDF mailbox' mime='application/octet-stream' ext=''/>
+			<match bytes='01 01' name='PDP-11 UNIX/RT ldp' mime='application/octet-stream' ext=''/>
+			<match bytes='01 00 6F 36 35' name='o65' mime='application/octet-stream' ext=''/>
+			<match bytes='01 00 09 00' name='ms-windows metafont .wmf' mime='application/octet-stream' ext=''/>
+			<match bytes='01 00' name='raw G3 data, byte-padded' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='02'>
+			<match bytes='02 B9 B2 00 20 02 00 74' name='Claris works dictionary' mime='application/octet-stream' ext=''/>
+			<match bytes='02 59' name='mumps avl global' mime='application/octet-stream' ext=''/>
+			<match bytes='02 41 42' name='ABComp archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='02 26' name='IRIS Showcase template' mime='application/octet-stream' ext=''/>
+			<match bytes='02 14 01 08' name='PA-RISC2.0 shared executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 14 01 07' name='PA-RISC2.0 executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 14 01 06' name='PA-RISC2.0 relocatable object' mime='application/octet-stream' ext=''/>
+			<match bytes='02 10 01 08' name='PA-RISC1.1 shared executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 10 01 07' name='PA-RISC1.1 executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 10 01 06' name='PA-RISC1.1 relocatable object' mime='application/octet-stream' ext=''/>
+			<match bytes='02 08 01 08' name='HP s500 pure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 08 01 07' name='HP s500 executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 08 01 06' name='HP s500 relocatable executable' mime='application/octet-stream' ext=''/>
+			<match bytes='02 06' name='ALAN game data' mime='application/octet-stream' ext=''/>
+			<match bytes='02 00 88 03 42 4F 42 4F 00 01 86' name='Claris works document' mime='application/octet-stream' ext=''/>
+			<match bytes='02 00 09 00' name='ms-windows metafont .wmf' mime='application/octet-stream' ext=''/>
+			<match bytes='02 00 02 01' name='MSVC .bsc' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='03'>
+			<match bytes='03 7A' name='amd 29k coff prebar executable' mime='application/octet-stream' ext=''/>
+			<match bytes='03 41 42 32' name='ABComp archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='03 03 13 13' name='SpeedShop data file' mime='application/octet-stream' ext=''/>
+			<match bytes='03 03 01 04 38 01 00 00' name='tz3 ms-works file' mime='application/octet-stream' ext=''/>
+			<match bytes='03 02 01 04 38 01 00 00' name='tz3 ms-works file' mime='application/octet-stream' ext=''/>
+			<match bytes='03 01 01 04 38 01 00 00' name='tz3 ms-works file' mime='application/octet-stream' ext=''/>
+			<match bytes='03 00 00 00' name='VMS Alpha executable' mime='application/octet-stream' ext=''/>
+			<match bytes='03' name='DBase 3 data file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='04'>
+			<match bytes='04 54 50 41 43 03' name='TPac archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='04 25 21' name='PostScript document text' mime='application/postscript' ext='ps'/>
+			<match bytes='04 00 00 00' name='X11 SNF font data, LSB first' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='05'>
+			<match bytes='05 56 4E 46' name='Visual Networks traffic capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='05 06' name='IRIS Showcase file' mime='application/octet-stream' ext=''/>
+			<match bytes='05 01 01 00' name='Terse archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='05 01' name='PDP-11 old overlay' mime='application/octet-stream' ext=''/>
+			<match bytes='05 00' name='Hitachi SH big-endian COFF' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='06'>
+			<match bytes='06 02 00 00' name='b.out' mime='application/octet-stream' ext=''/>
+			<match bytes='06 02' name='Microsoft a.out' mime='application/octet-stream' ext=''/>
+			<match bytes='06 01' name='VAX-order 68k Blit mpx/mux executable' mime='application/octet-stream' ext=''/>
+			<match bytes='06 00' name='DBase 3 index file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='07'>
+			<match bytes='07 10' name='LANalyzer capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='07 01 64 00' name='Linux/i386 impure executable (OMAGIC)' mime='application/octet-stream' ext=''/>
+			<match bytes='07 01 00 00' name='VAX executable' mime='application/octet-stream' ext=''/>
+			<match bytes='07 01 00' name='Linux/i386 object file' mime='application/octet-stream' ext=''/>
+			<match bytes='07 01' name='PDP-11 executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='08'>
+			<match bytes='08 0E 0A 0F' name='TML 2301 byte-order format' mime='application/octet-stream' ext=''/>
+			<match bytes='08 09 FE' name='Microstation' mime='application/octet-stream' ext=''/>
+			<match bytes='08 09' name='Bentley/Intergraph MicroStation' mime='application/octet-stream' ext=''/>
+			<match bytes='08 05 17 00' name='Bentley/Intergraph MicroStation DGN cell library' mime='application/octet-stream' ext=''/>
+			<match bytes='08 01 64 00' name='Linux/i386 pure executable (NMAGIC)' mime='application/octet-stream' ext=''/>
+			<match bytes='08 01 00 00' name='VAX pure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='08 01' name='PDP-11 pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='09'>
+			<match bytes='09 04 06 00 00 00 10 00' name='Microsoft Excel Worksheet' mime='application/octet-stream' ext=''/>
+			<match bytes='09 01' name='PDP-11 separate I&amp;D executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='0A'>
+			<match bytes='0A 47 4C' name='Binary II (apple ][) data' mime='application/octet-stream' ext=''/>
+			<match bytes='0A 28' name='Emacs v18 byte-compiled Lisp data' mime='application/x-elc' ext=''/>
+			<match bytes='0A 0F 08 0E' name='TML 0123 byte-order format' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='0B'>
+			<match bytes='0B 01 00 00' name='VAX demand paged pure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='0B 01' name='PDP-11 demand-paged pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='0D'>
+			<match bytes='0D 23 23 20 26 6C 74 3B 44 45 53 43 52 49 42 45 26 67 74 3B 09 4D 61 70 6C 65 20 73 6F 6D 65 74 68 69 6E 67 20 61 6E 6F 6D 61 6C 6F 75 73 2E' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='0E'>
+			<match bytes='0E FE FF' name='Unicode text, SCSU (Standard Compression Scheme for Unicode)' mime='application/octet-stream' ext=''/>
+			<match bytes='0E 08 0F 0A' name='TML 3210 byte-order format' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='0F'>
+			<match bytes='0F 0A 0E 08' name='TML 1032 byte-order format' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='10'>
+			<match bytes='10 E1 00 00 08 08' name='Claris Works pallete files .plt' mime='application/octet-stream' ext=''/>
+			<match bytes='10 10' name='PEX Binary Archive' mime='application/octet-stream' ext=''/>
+			<match bytes='10 01 00 00' name='VAX demand paged (first page unmapped) pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='13'>
+			<match bytes='13 5D 65 8C' name='InstallShield Z archive Data' mime='application/octet-stream' ext=''/>
+			<match bytes='13 00 00' name='Spectrum .TAP data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='14'>
+			<match bytes='14 02 59 19' name='libGrx font data' mime='application/octet-stream' ext=''/>
+			<match bytes='14 00' name='raw G3 data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='15'>
+			<match bytes='15 75' name='fsav macro virus signatures' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='18'>
+			<match bytes='18 01' name='PDP-11 overlaid pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='19'>
+			<match bytes='19 01' name='PDP-11 overlaid separate executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='1A'>
+			<match bytes='1A 61 72 63 68 69 76 65' name='RISC OS archive (ArcFS format)' mime='application/octet-stream' ext=''/>
+			<match bytes='1A 51 46 1A' name='QFC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='1A 46 43 1A' name='QFC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='1A 01' name='Compiled terminfo entry' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='1B'>
+			<match bytes='1B 63 1B' name='LN03 output' mime='application/octet-stream' ext=''/>
+			<match bytes='1B 5B 4B 02 00 00 0F 1B 28 61 01 00 01 1B 28 67' name='Canon Bubble Jet BJC formatted data' mime='application/octet-stream' ext=''/>
+			<match bytes='1B 45 1B' name='HP PCL printer data' mime='application/octet-stream' ext=''/>
+			<match bytes='1B 40 1B 28 52 08 00 00 52 45 4D 4F 54 45 31 50' name='Epson Stylus Color 460 data' mime='application/octet-stream' ext=''/>
+			<match bytes='1B 25 2D 31 32 33 34 35 58 40 50 4A 4C' name='HP Printer Job Language data' mime='application/octet-stream' ext=''/>
+			<match bytes='1B 25 2D 31 32 33 34 35 58 25 21 50 53' name='PostScript document' mime='application/octet-stream' ext=''/>
+			<match bytes='1B 01 40 45 4A 4C' name='Epson ESC/Page language printer data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='1E'>
+			<match bytes='1E 01' name='byte-swapped Berkeley vfont data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='1F'>
+			<match bytes='1F A1' name='Quasijarus strong compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='1F A0' name='SCO compress -H (LZH) data' mime='application/octet-stream' ext=''/>
+			<match bytes='1F 9F 4A 10 0A' name='Freeze archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='1F 9F' name='frozen file 2.1' mime='application/octet-stream' ext=''/>
+			<match bytes='1F 9E' name='frozen file 1.0 (or gzip 0.5)' mime='application/octet-stream' ext=''/>
+			<match bytes='1F 9D' name='compress&#39;d data' mime='application/x-compress' ext=''/>
+			<match bytes='1F 8B' name='gzip compressed data' mime='application/x-gzip' ext='gz'/>
+			<match bytes='1F 1E' name='packed data' mime='application/octet-stream' ext=''/>
+			<match bytes='1F 01' name='PDP-11 kernel overlay' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='20'>
+			<match bytes='20 3D 09 46 49 54 53 20 69 6D 61 67 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='20 21 4E 54 49 54 4C 45 0A 20 52 45 4D 41 52 4B' name='CNS ASCII electron density map' mime='application/octet-stream' ext=''/>
+			<match bytes='20 20 31 30 32 34 0A 09 4E 49 53 54 20 53 50 48 45 52 45 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='20 20 20 20 20 20 20 20 20 20 26 23 30 3B 26 23 30 3B 20 20 20 20 4C 42 52 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='20 20 20 20 09 52 2D 41 78 69 73 20 41 72 65 61 20 44 65 74 65 63 74 6F 72 20 49 6D 61 67 65 2C 20 57 69 6E 33 32 3A' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='20 20 09 52 2D 41 78 69 73 20 41 72 65 61 20 44 65 74 65 63 74 6F 72 20 49 6D 61 67 65 3A' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='21'>
+			<match bytes='21 5F 54 41 47' name='Exuberant Ctags tag file text' mime='application/octet-stream' ext=''/>
+			<match bytes='21 3C 73 70 65 6C 6C 3E' name='MKS Spell hash list (old format)' mime='application/octet-stream' ext=''/>
+			<match bytes='21 3C 73 70 65 6C 6C 32 3E' name='MKS Spell hash list' mime='application/octet-stream' ext=''/>
+			<match bytes='21 3C 62 6F 75 74 3E' name='b.out archive' mime='application/octet-stream' ext=''/>
+			<match bytes='21 3C 61 72 63 68 3E 0A 5F 5F 5F 5F 5F 5F 5F 5F 5F 5F 45' name='MIPS archive' mime='application/octet-stream' ext=''/>
+			<match bytes='21 3C 61 72 63 68 3E 0A 5F 5F 5F 5F 5F 5F 5F 5F 36 34 45' name='Alpha archive' mime='application/octet-stream' ext=''/>
+			<match bytes='21 3C 61 72 63 68 3E' name='current ar archive' mime='application/x-archive' ext=''/>
+			<match bytes='21 3C 50 44 46 3E 21 0A' name='profiling data file' mime='application/octet-stream' ext=''/>
+			<match bytes='21 21' name='Bennet Yee&#39;s &quot;face&quot; format' mime='application/octet-stream' ext=''/>
+			<match bytes='21 06 80 28' name='Sega Dreamcast VMU game image' mime='application/octet-stream' ext=''/>
+			<match bytes='21' name='Assembler source' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='22'>
+			<match bytes='22 22 22' name='a python script text executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='23'>
+			<match bytes='23 70 6D 6C 6F 67 67 65 72' name='PCP pmlogger config' mime='application/octet-stream' ext=''/>
+			<match bytes='23 70 6D 69 65 63 6F 6E 66 2D 72 75 6C 65 73' name='PCP pmieconf rules' mime='application/octet-stream' ext=''/>
+			<match bytes='23 70 6D 63 68 61 72 74' name='PCP pmchart view' mime='application/octet-stream' ext=''/>
+			<match bytes='23 53 55 4E 50 43 5F 43 4F 4E 46 49 47' name='SunPC 4.0 Properties Values' mime='application/octet-stream' ext=''/>
+			<match bytes='23 49 6E 76 65 6E 74 6F 72' name='V2	Open Inventor 2.0 file' mime='application/octet-stream' ext=''/>
+			<match bytes='23 46 49 47' name='FIG image text' mime='application/octet-stream' ext=''/>
+			<match bytes='23 45 58 54 4D 33 55' name='M3U playlist' mime='application/octet-stream' ext=''/>
+			<match bytes='23 23 53 6B 65 74 63 68' name='Sketch document text' mime='application/octet-stream' ext=''/>
+			<match bytes='23 21 74 65 61 70 6F 74 0A 78 64 72' name='teapot work sheet (XDR format)' mime='application/octet-stream' ext=''/>
+			<match bytes='23 21 2F 75 73 72 2F 62 69 6E 2F 65 6E 76' name='a' mime='application/octet-stream' ext=''/>
+			<match bytes='23 21 2F' name='a' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='24'>
+			<match bytes='24 53 75 69 74 65' name='TTCN Abstract Test Suite' mime='application/octet-stream' ext=''/>
+			<match bytes='24 46 4C 32' name='SPSS System File' mime='application/octet-stream' ext=''/>
+			<match bytes='24 0A 73 68 69 70' name='ship&#39;d binary text' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='25'>
+			<match bytes='25 7B' name='lex description text' mime='application/octet-stream' ext=''/>
+			<match bytes='25 62 69 74 6D 61 70 00' name='FBM image data' mime='application/octet-stream' ext=''/>
+			<match bytes='25 58 44 5A 30 30 34 25' name='XDelta binary patch file 1.1' mime='application/octet-stream' ext=''/>
+			<match bytes='25 58 44 5A 30 30 33 25' name='XDelta binary patch file 1.0.4' mime='application/octet-stream' ext=''/>
+			<match bytes='25 58 44 5A 30 30 32 25' name='XDelta binary patch file 1.0' mime='application/octet-stream' ext=''/>
+			<match bytes='25 58 44 5A 30 30 31 25' name='XDelta binary patch file 0.20' mime='application/octet-stream' ext=''/>
+			<match bytes='25 58 44 5A 30 30 30 25' name='XDelta binary patch file 0.18' mime='application/octet-stream' ext=''/>
+			<match bytes='25 58 44 45 4C 54 41 25' name='XDelta binary patch file 0.14' mime='application/octet-stream' ext=''/>
+			<match bytes='25 50 44 46 2D' name='PDF document' mime='application/pdf' ext='pdf'/>
+			<match bytes='25 25 48 50 3A' name='HP48 text' mime='application/octet-stream' ext=''/>
+			<match bytes='25 25 21 21' name='X-Post-It-Note text' mime='application/octet-stream' ext=''/>
+			<match bytes='25 21 56 4D 46' name='SunClock&#39;s Vector Map Format data' mime='application/octet-stream' ext=''/>
+			<match bytes='25 21 50 53 2D 41 64 6F 62 65 46 6F 6E 74 2D 31 2E' name='PostScript Type 1 font text' mime='application/octet-stream' ext=''/>
+			<match bytes='25 21' name='PostScript document text' mime='application/postscript' ext='ps'/>
+		</first>
+		<first byte='26'>
+			<match bytes='26 71 75 6F 74 3B 65 78 65 63 20 2F 75 73 72 2F 6C 6F 63 61 6C 2F 62 69 6E 2F 70 65 72 6C 09 70 65 72 6C 20 73 63 72 69 70 74 20 74 65 78 74 20 65 78 65 63 75 74 61 62 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 71 75 6F 74 3B 65 78 65 63 20 2F 75 73 72 2F 62 69 6E 2F 70 65 72 6C 09 70 65 72 6C 20 73 63 72 69 70 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 71 75 6F 74 3B 65 78 65 63 20 2F 62 69 6E 2F 70 65 72 6C 09 09 70 65 72 6C 20 73 63 72 69 70 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 6C 74 3B 53 48 41 52 45 46 49 4C 45 3D 09 4D 61 70 6C 65 20 73 6F 6D 65 74 68 69 6E 67' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 23 33 39 3B 64 69 66 66 26 23 33 39 3B 20 6F 75 74 70 75 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 23 33 39 3B 28 65 78 69 74 20 24 3F 30 29 26 23 33 39 3B 20 26 61 6D 70 3B 26 61 6D 70 3B 20 65 76 61 6C 20 26 23 33 39 3B 65 78 65 63 09 70 65 72 6C 20 73 63 72 69 70 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 23 30 3B 26 23 30 3B 20 5A 5A 69 70 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26 23 30 3B 20 42 53 41 72 63 2F 42 53 32 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='26' name='Sendmail frozen configuration ' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='27'>
+			<match bytes='27 5C 22' name='troff or preprocessor input text' mime='application/octet-stream' ext=''/>
+			<match bytes='27 46 72 6F 6D 20 53 71 75 65 61 6B' name='Squeak program text' mime='application/octet-stream' ext=''/>
+			<match bytes='27 2E 5C 22' name='troff or preprocessor input text' mime='application/octet-stream' ext=''/>
+			<match bytes='27 27 27' name='troff or preprocessor input text' mime='application/octet-stream' ext=''/>
+			<match bytes='27 05 19 56' name='u-boot/PPCBoot image' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='28'>
+			<match bytes='28 63 29 20 31 39 39 09 41 64 6F 62 65 20 4D 75 6C 74 69 70 6C 65 20 4D 61 73 74 65 72 20 66 6F 6E 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='28 53 59 53 54 45 4D 3A 3A 56 45 52 53 49 4F 4E 20 27' name='CLISP byte-compiled Lisp program text' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0D 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0D 0D 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0D 0A 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0D 0A 0D 0A 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0D' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0A 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0A 0D 0A 0D 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 5E 0A 0A 3A 3A 5B 09' name='Mathematica notebook version 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A' name='Mathematica 3.0 notebook' mime='application/octet-stream' ext=''/>
+			<match bytes='28 2A' name='Mathematica, or Pascal,  Modula-2 or 3 code text' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2A'>
+			<match bytes='2A 6E 61 7A 67 75 6C 2A' name='Nazgul style compiled message catalog' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 6D 62 78 2A' name='MBX mail folder' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 55 2A 55 2A 55 2A 55' name='Apple II image with green background' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 53 54 41' name='Aster*x' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 50 50 44 2D 41 64 6F 62 65 3A' name='PPD file' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 42 45 47 49 4E' name='Applixware' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 46 4C 2A 2A' name='TI-XX Graphing Calculator (FLASH)' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 39 32 50 2A' name='TI-92+/V200 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 39 32 2A 2A' name='TI-92 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 39 2A 2A' name='TI-89 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 36 2A 2A' name='TI-86 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 35 2A 2A' name='TI-85 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 33 46 2A' name='TI-83+ Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 33 2A 2A' name='TI-83 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 32 2A 2A' name='TI-82 Graphing Calculator' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 31 2A 2A' name='TI-81 Graphing Calculator File.' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 38 30 2A 2A' name='TI-80 Graphing Calculator File.' mime='application/octet-stream' ext=''/>
+			<match bytes='2A 2A 54 49 37 33 2A 2A' name='TI-73 Graphing Calculator' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2B'>
+			<match bytes='2B 2F 76 39' name='Unicode text, UTF-7' mime='application/octet-stream' ext=''/>
+			<match bytes='2B 2F 76 38' name='Unicode text, UTF-7' mime='application/octet-stream' ext=''/>
+			<match bytes='2B 2F 76 2F' name='Unicode text, UTF-7' mime='application/octet-stream' ext=''/>
+			<match bytes='2B 2F 76 2B' name='Unicode text, UTF-7' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2C'>
+			<match bytes='2C 41 52 37' name='AR7 archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2D'>
+			<match bytes='2D 72 6F 6D 31 66 73 2D 00' name='romfs filesystem, version 1' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 68 2D' name='Software Tools format archive text' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 48 32 4F' name='DRY archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 2D 2D 2D 2D 42 45 47 49 4E 20 50 47 50' name='PGP armored data' mime='text/PGP armored data' ext=''/>
+			<match bytes='2D 2A 2D 6C 61 74 65 78 2D 2A 2D 09 4C 61 54 65 58 20 64 6F 63 75 6D 65 6E 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 20 43 50 43 45 4D 55 20 44 69 73 6B 2D 46 69 6C 20 41 6D 73 74 72 61 64 2F 53 70 65 63 74 72 75 6D 20 2E 44 53 4B 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 20 43 50 43 20 66 6F 72 6D 61 74 20 44 69 73 20 41 6D 73 74 72 61 64 2F 53 70 65 63 74 72 75 6D 20 44 55 35 34 20 2E 44 53 4B 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2E'>
+			<match bytes='2E 73 79 73 74 65 6D' name='SHARC architecture file' mime='application/octet-stream' ext=''/>
+			<match bytes='2E 73 6E 64' name='Sun/NeXT audio data:' mime='application/octet-stream' ext=''/>
+			<match bytes='2E 5C 22' name='troff or preprocessor input text' mime='application/octet-stream' ext=''/>
+			<match bytes='2E 53 59 53 54 45 4D' name='SHARC architecture file' mime='application/octet-stream' ext=''/>
+			<match bytes='2E 52 4D 46' name='RealMedia file' mime='application/vnd.rn-realmedia' ext='rm'/>
+			<match bytes='2E 4D 44 50' name='MicroDesign page data' mime='application/octet-stream' ext=''/>
+			<match bytes='2E 4D 44 41' name='MicroDesign data' mime='application/octet-stream' ext=''/>
+			<match bytes='2E 30 30 30 30 2E 30 30 30 30 26 23 30 3B 26 23 33 3B 09 4D 53 56 43 20 2E 77 73 70 20 76 65 72 73 69 6F 6E 20 31 2E 30 30 30 30 2E 30 30 30 30' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2F'>
+			<match bytes='2F 75 73 72 2F 62 69 6E 2F 65 6E 76 09 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='2F 2F 4D 61 79 61' name='ASCII	Alias Maya Ascii File' mime='application/octet-stream' ext=''/>
+			<match bytes='2F 2F 21 4D 75 70' name='Mup music publication program input text' mime='application/octet-stream' ext=''/>
+			<match bytes='2F 09 09 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='2F 09 09 09 61' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='30'>
+			<match bytes='30 78 61 62 63 64 65 66' name='AIX message catalog' mime='application/octet-stream' ext=''/>
+			<match bytes='30 37 30 37 30 37' name='ASCII cpio archive (pre-SVR4 or odc)' mime='application/octet-stream' ext=''/>
+			<match bytes='30 37 30 37 30 32' name='ASCII cpio archive (SVR4 with CRC)' mime='application/octet-stream' ext=''/>
+			<match bytes='30 37 30 37 30 31' name='ASCII cpio archive (SVR4 with no CRC)' mime='application/octet-stream' ext=''/>
+			<match bytes='30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 42 5A 68' name='EXP1 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='30 26 B2 75 8E 66 CF 11 A6 D9 00 AA 00 62 CE 6C' name='Microsoft Advanced Systems Format' mime='video/x-ms-asf' ext='asf'/>
+			<match bytes='30 20' name='character Computer Graphics Metafile' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='31'>
+			<match bytes='31 56 77 70' name='Cracklib password index, little endian' mime='application/octet-stream' ext=''/>
+			<match bytes='31 39 38 34' name='Linux Journalled Flash File system, little endian' mime='application/octet-stream' ext=''/>
+			<match bytes='31 2E 30 09 26 71 75 6F 74 3B 69 70 74 72 61 63 65 26 71 75 6F 74 3B 20 63 61 70 74 75 72 65 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='32'>
+			<match bytes='32 42 49 54' name='Audio Visual Research file' mime='application/octet-stream' ext=''/>
+			<match bytes='32 32 37 38' name='Aster*x Version 2' mime='application/octet-stream' ext=''/>
+			<match bytes='32 2E 30 30 52 47 20 53 41 50 43 41 52 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='32 2E 30 09 26 71 75 6F 74 3B 69 70 74 72 61 63 65 26 71 75 6F 74 3B 20 63 61 70 74 75 72 65 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='33'>
+			<match bytes='33 33 32 20 20 20 20 20 20 20 20 20 58 56 20 26 71 75 6F 74 3B 74 68 75 6D 62 6E 61 69 6C 20 66 69 6C 65 26 71 75 6F 74 3B 20 28 69 63 6F 6E 29 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='33 33 32 09 09 58 56 20 74 68 75 6D 62 6E 61 69 6C 20 69 6D 61 67 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='33 18' name='AIN archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='33 17' name='AIN archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='34'>
+			<match bytes='34 39 35 09 09 53 6F 66 74 51 75 61 64 20 74 72 6F 66 66 20 43 6F 6E 74 65 78 74 20 69 6E 74 65 72 6D 65 64 69 61 74 65 20 66 6F 72 20 41 54 26 61 6D 70 3B 54 20 34 39 35 20 6C 61 73 65 72 20 70 72 69 6E 74 65 72' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='34 38 39 31' name='Linux Journalled Flash File system, big endian' mime='application/octet-stream' ext=''/>
+			<match bytes='34 20 20 20 74 67 69 66 20 76 65 72 73 69 6F 6E 20 34 20 6F 62 6A 65 63 74 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='34 14 0A 00 1D 00 00 00' name='Mathematica version 2 notebook' mime='application/octet-stream' ext=''/>
+			<match bytes='34 14 09 00 1D 00 00 00' name='Mathematica version 2 notebook' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='35'>
+			<match bytes='35 0A 74 68 65 5F 57 69 7A 61 72 64 27 73 5F 4D 61 6E 73 65' name='Quake I save: e2m5 The wizard&#39;s manse' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 54 6F 6D 62 5F 6F 66 5F 54 65 72 72 6F 72' name='Quake I save: e3m3 The tomb of terror' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 53 6C 69 70 67 61 74 65 5F 43 6F 6D 70 6C 65 78' name='Quake I save: e1m1 The slipgate complex' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 53 65 77 61 67 65 5F 53 79 73 74 65 6D' name='Quake I save: e4m1 The sewage system' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 50 61 6C 61 63 65 5F 6F 66 5F 48 61 74 65' name='Quake I save: e4m4 The palace of hate' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 4F 67 72 65 5F 43 69 74 61 64 65 6C' name='Quake I save: e2m2 The ogre citadel' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 4E 65 63 72 6F 70 6F 6C 69 73' name='Quake I save: e1m3 The necropolis' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 4E 61 6D 65 6C 65 73 73 5F 43 69 74 79' name='Quake I save: e4m8 The nameless city (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 4C 6F 73 74 5F 4D 69 6E 65' name='Quake I save: hip1m3 The lost mine' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 49 6E 73 74 61 6C 6C 61 74 69 6F 6E' name='Quake I save: e2m1 The installation' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 48 61 75 6E 74 65 64 5F 48 61 6C 6C 73' name='Quake I save: e3m7 The haunted halls (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 47 72 69 73 6C 79 5F 47 72 6F 74 74 6F' name='Quake I save: e1m4 The grisly grotto' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 45 64 67 65 5F 6F 66 5F 4F 62 6C 69 76 69 6F 6E' name='Quake I save: hipdm1 The edge of oblivion (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 45 62 6F 6E 5F 46 6F 72 74 72 65 73 73' name='Quake I save: e2m4 The ebon fortress' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 44 69 73 6D 61 6C 5F 4F 75 62 6C 69 65 74 74 65' name='Quake I save: e2m6 The dismal oubliette' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 43 72 79 70 74 5F 6F 66 5F 44 65 63 61 79' name='Quake I save: e2m3 The crypt of decay (dopefish lives!)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 74 68 65 5F 43 72 79 70 74 5F 5F' name='Quake I save: hip2m4 The crypt' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 5A 69 67 67 75 72 61 74 5F 56 65 72 74 69 67 6F' name='Quake I save: e1m8 Ziggurat vertigo (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 57 69 6E 64 5F 54 75 6E 6E 65 6C 73' name='Quake I save: e3m5 Wind tunnels' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 56 61 75 6C 74 73 5F 6F 66 5F 5A 69 6E' name='Quake I save: e3m2 Vaults of Zin' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 55 6E 64 65 72 65 61 72 74 68' name='Quake I save: e2m7 Underearth (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 75 72 5F 54 6F 72 6D 65 6E 74' name='Quake I save: hip3m1 Tur torment' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 55 6E 64 65 72 77 61 74 65 72 5F 42 61 73 65' name='Quake I save: d8 The underwater base' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 54 6F 77 65 72 5F 6F 66 5F 44 65 73 70 61 69 72' name='Quake I save: e4m2 The tower of despair' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 53 65 76 65 6E 74 68 5F 50 72 65 63 69 6E 63 74' name='Quake I save: ddm1 The seventh precinct' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 50 75 6D 70 69 6E 67 5F 53 74 61 74 69 6F 6E' name='Quake I save: hip1m1 The pumping station' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 50 61 69 6E 5F 4D 61 7A 65' name='Quake I save: e4m6 The pain maze' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 4C 61 62' name='Quake I save: d1 The lab' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 49 6E 63 69 6E 65 72 61 74 6F 72 5F 50 6C 61 6E 74' name='Quake I save: d7 The incinerator plant' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 48 6F 75 73 65 5F 6F 66 5F 43 68 74 68 6F 6E' name='Quake I save: e1m7 The house of Chthon' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 48 6F 73 70 69 74 61 6C' name='Quake I save: d10 The hospital (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 47 72 65 6D 6C 69 6E 27 73 5F 44 6F 6D 61 69 6E' name='Quake I save: hip2m6 The gremlin&#39;s domain (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 47 65 6E 65 74 69 63 73 5F 4C 61 62' name='Quake I save: d11 The genetics lab (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 47 61 75 6E 74 6C 65 74' name='Quake I save: hip3m4 The gauntlet' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 46 6F 75 6E 64 72 79' name='Quake I save: d7b The foundry' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 46 6C 6F 6F 64' name='Quake I save: d5 The flood' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 45 6C 64 65 72 5F 47 6F 64 5F 53 68 72 69 6E 65' name='Quake I save: e4m3 The elder god shrine' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 44 6F 6F 72 5F 54 6F 5F 43 68 74 68 6F 6E' name='Quake I save: e1m6 The door to Chthon' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 44 61 72 6B 5F 5A 6F 6E 65' name='Quake I save: dm6 The dark zone' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 43 69 73 74 65 72 6E' name='Quake I save: dm5 The cistern' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 43 61 74 61 63 6F 6D 62 73' name='Quake I save: hip2m3 The catacombs' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 42 6C 61 63 6B 5F 43 61 74 68 65 64 72 61 6C' name='Quake I save: hip2m2 The black cathedral' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 42 61 64 5F 50 6C 61 63 65' name='Quake I save: dm4 The bad place' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 41 63 61 64 65 6D 79' name='Quake I save: start The academy' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 68 65 5F 41 62 61 6E 64 6F 6E 65 64 5F 42 61 73 65' name='Quake I save: dm3 The abandoned base' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 65 72 6D 69 6E 61 74 69 6F 6E 5F 43 65 6E 74 72 61 6C' name='Quake I save: e3m1 Termination central' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 61 6B 61 68 69 72 6F 5F 54 6F 77 65 72 73' name='Quake I save: d2 Takahiro towers' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 61 6B 61 68 69 72 6F 5F 4C 61 62 6F 72 61 74 6F 72 69 65 73' name='Quake I save: d12 Takahiro laboratories' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 54 61 6B 61 68 69 72 6F 5F 42 61 73 65' name='Quake I save: d9 Takahiro base' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 75 62 5F 53 74 61 74 69 6F 6E' name='Quake I save: ddm2 Sub station' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 74 6F 72 61 67 65 5F 46 61 63 69 6C 69 74 79' name='Quake I save: hip1m2 Storage facility' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 74 61 79 69 6E 27 5F 41 6C 69 76 65' name='Quake I save: d13 Stayin&#39; alive' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 6C 61 75 67 68 74 65 72 68 6F 75 73 65' name='Quake I save: ddm5 Slaughterhouse' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 68 75 62 2D 4E 69 67 67 75 72 61 74 68 27 73 5F 50 69 74' name='Quake I save: end Shub-Niggurath&#39;s pit' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 61 74 61 6E 27 73 5F 44 61 72 6B 5F 44 65 6C 69 67 68 74' name='Quake I save: e3m4 Satan&#39;s dark delight' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 48 4F 57 44 4F 57 4E 21' name='Quake I save: d15 Showdown!' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 45 43 52 45 54 5F 4D 49 53 53 49 4F 4E 53' name='Quake I save: d3b Secret missions' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 53 41 4E 44 52 41 27 53 5F 4C 41 44 44 45 52' name='Quake I save: ddm7 Sandra&#39;s ladder' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 52 65 73 65 61 72 63 68 5F 46 61 63 69 6C 69 74 79' name='Quake I save: hip1m4 Research facility' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 50 6C 61 63 65 5F 6F 66 5F 54 77 6F 5F 44 65 61 74 68 73' name='Quake I save: dm1 Place of two deaths' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 50 61 6E 64 65 6D 6F 6E 69 75 6D' name='Quake I save: hip3m2 Pandemonium' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 4E 75 63 6C 65 61 72 5F 50 6C 61 6E 74' name='Quake I save: d6 Nuclear plant' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 4D 6F 72 74 75 6D 27 73 5F 4B 65 65 70' name='Quake I save: hip2m5 Mortum&#39;s keep' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 4D 69 6C 69 74 61 72 79 5F 43 6F 6D 70 6C 65 78' name='Quake I save: hip1m5 Military complex (secret)' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 4C 69 6D 62 6F' name='Quake I save: hip3m3 Limbo' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 49 6E 74 72 6F 64 75 63 74 69 6F 6E' name='Quake I save: start Introduction' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 49 6E 74 6F 5F 54 68 65 5F 46 6C 6F 6F 64' name='Quake I save: d4 Into the flood' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 48 65 6C 6C 27 73 5F 41 74 72 69 75 6D' name='Quake I save: e4m5 Hell&#39;s atrium' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 47 6C 6F 6F 6D 5F 4B 65 65 70' name='Quake I save: e1m5 Gloom keep' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 45 61 73 74 5F 53 69 64 65 5F 49 6E 76 65 72 74 61 74 69 6F 6E 61' name='Quake I save: ddm4 East side invertationa' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 44 4F 4D 49 4E 4F' name='Quake I save: ddm6 Domino' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 43 72 61 7A 79 5F 45 69 67 68 74 73 21' name='Quake I save: ddm3 Crazy eights!' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 43 6F 6D 6D 61 6E 64 5F 48 51' name='Quake I save: start Command HQ' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 43 6C 61 75 73 74 72 6F 70 68 6F 62 6F 70 6F 6C 69 73' name='Quake I save: dm2 Claustrophobopolis' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 43 68 61 6D 62 65 72 73 5F 6F 66 5F 54 6F 72 6D 65 6E 74' name='Quake I save: e3m6 Chambers of torment' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 43 61 73 74 6C 65 5F 6F 66 5F 74 68 65 5F 44 61 6D 6E 65 64' name='Quake I save: e1m2 Castle of the damned' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 42 41 43 4B 5F 32 5F 4D 41 4C 49 43 45' name='Quake I save: d4b Back to Malice' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 42 2E 4F 2E 53 2E 53 2E 5F 48 51' name='Quake I save: d14 B.O.S.S. HQ' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 41 7A 75 72 65 5F 41 67 6F 6E 79' name='Quake I save: e4m7 Azure agony' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 41 72 6D 61 67 6F 6E 27 73 5F 4C 61 69 72' name='Quake I save: hipend Armagon&#39;s lair' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 41 72 65 61 5F 33 33' name='Quake I save: d1b Area 33' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 41 72 65 61 34 34' name='Quake I save: d1c Area 44' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 41 6E 63 69 65 6E 74 5F 52 65 61 6C 6D 73' name='Quake I save: hip2m1 Ancient realms' mime='application/octet-stream' ext=''/>
+			<match bytes='35 0A 41 5F 52 61 74 27 73 5F 4C 69 66 65' name='Quake I save: d3 A rat&#39;s life' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='36'>
+			<match bytes='36 04' name='Linux/i386 PC Screen Font data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='37'>
+			<match bytes='37 80 40 12' name='V64 Nintendo 64 ROM dump' mime='application/octet-stream' ext=''/>
+			<match bytes='37 7A BC AF 27 1C' name='7-zip archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='37 37 37' name='777 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='37 04' name='QuArk archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='37 00 00 10 42 00 00 10 00 00 00 00 39 64 39 47' name='EPOC MBM image file' mime='application/octet-stream' ext=''/>
+			<match bytes='37 00 00 10' name='Psion Series 5' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='38'>
+			<match bytes='38 42 50 53' name='Adobe Photoshop Image' mime='image/x-photoshop' ext=''/>
+		</first>
+		<first byte='3A'>
+			<match bytes='3A 70 73 65 72 76 65 72 3A 20 20 20 20 63 76 73 20 70 61 73 73 77 6F 72 64 20 74 65 78 74 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='3A' name='shell archive or script for antique kernel text' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='3C'>
+			<match bytes='3C 62 69 67 61 66 3E' name='archive (big format)' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 61 72 3E' name='archive' mime='application/x-archive' ext=''/>
+			<match bytes='3C 61 69 61 66 66 3E' name='archive' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 54 65 58 6D 61 63 73 7C' name='TeXmacs document text' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 50 41 43 4B 41 47 45 3D' name='Maple help file' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 4D 61 6B 65 72 53 63 72 65 65 6E 46 6F 6E 74' name='FrameMaker Font file' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 4D 61 6B 65 72 46 69 6C 65' name='FrameMaker document' mime='application/x-frame' ext=''/>
+			<match bytes='3C 4D 61 6B 65 72 44 69 63 74 69 6F 6E 61 72 79' name='FrameMaker Dictionary text' mime='application/x-frame' ext=''/>
+			<match bytes='3C 4D 61 6B 65 72' name='Intermediate Print File	FrameMaker IPL file' mime='application/x-frame' ext=''/>
+			<match bytes='3C 4D 4D 4C' name='FrameMaker MML file' mime='application/x-frame' ext=''/>
+			<match bytes='3C 4D 49 46 46 69 6C 65' name='FrameMaker MIF (ASCII) file' mime='application/x-frame' ext=''/>
+			<match bytes='3C 44 43 2D' name='DC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 42 6F 6F 6B 46 69 6C 65' name='FrameMaker Book file' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 3F 0D' name='PHP script text' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 3F 0A' name='PHP script text' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 3C 62 62 78 3E 3E' name='BBx' mime='application/octet-stream' ext=''/>
+			<match bytes='3C 21 4F 50 53' name='Interleaf document text' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='3D'>
+			<match bytes='3D 20 09 4D 61 74 68 65 6D 61 74 69 63 61 20 6E 6F 74 65 62 6F 6F 6B' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='3F'>
+			<match bytes='3F 5F 03 00' name='MS Windows Help Data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='40'>
+			<match bytes='40 EF' name='very old (C/A/T) troff output data' mime='application/octet-stream' ext=''/>
+			<match bytes='40 C3 A2 01 00' name='Pack Magic archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='40 6D 61 70 66 69 6C 65 7B 20 20 20 54 65 58 20 66 6F 6E 74 20 61 6C 69 61 73 65 73 20 74 65 78 74 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='40 64 6F 63 75 6D 65 6E 74 28' name='Imagen printer' mime='application/octet-stream' ext=''/>
+			<match bytes='40 28 23 29 53 75 6E 50 48 49 47 53' name='SunPHIGS' mime='application/octet-stream' ext=''/>
+			<match bytes='40 01' name='old Microsoft 8086 x.out' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='41'>
+			<match bytes='41 72 74 69 63 6C 65' name='saved news text' mime='message/news	8bit' ext=''/>
+			<match bytes='41 72 63 68 69 76 65 00' name='RISC OS archive (ArcFS format)' mime='application/octet-stream' ext=''/>
+			<match bytes='41 6E 61 6C 6F 67' name='ADi asm listing file' mime='application/octet-stream' ext=''/>
+			<match bytes='41 69 02 01' name='Ai32 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 69 02 00' name='Ai32 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 69 01 01 00' name='Ai archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 69 01 00 00' name='Ai archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 56 53 20 50 72 65 73 65 74 20 09 57 69 6E 61 6D 70 20 70 6C 75 67 20 69 6E' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='41 54 26 54 46 4F 52 4D' name='DjVu Image file' mime='image/x.djvu' ext=''/>
+			<match bytes='41 53 44' name='ASD archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 52 50 2E' name='The Holy Noise Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='41 52 46 5F 42 45 47 41 52 46' name='PHIGS clear text archive' mime='application/octet-stream' ext=''/>
+			<match bytes='41 50 50 4C' name='Macintosh Application (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='41 4F 4E 34 61 72 74 6F 66 6E 6F 69 73 65' name='Art Of Noise Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='41 4D 53 68 64 72 1A' name='Velvet Studio AMS Module v2.2' mime='application/octet-stream' ext=''/>
+			<match bytes='41 4D 46' name='AMF Module' mime='application/octet-stream' ext=''/>
+			<match bytes='41 4D 41 4E 44 41 20' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='41 4B 54 33 32' name='AKT32 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 4B 54' name='AKT archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 47 44 34 BE B8 BB CB 00' name='Macromedia Freehand 9 Document' mime='application/octet-stream' ext=''/>
+			<match bytes='41 44 49 46' name='MPEG ADIF, AAC' mime='audio/X-HX-AAC-ADIF' ext='aac'/>
+			<match bytes='41 43 45 2F 67 72 20 70 61 72 61 6D 65 74 65 72 20 66 69 6C 65 09 41 43 45 2F 67 72 20 61 73 63 69 69 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='41 43 45 2F 67 72 20 66 69 74 20 64 65 73 63 72 69 70 74 69 6F 6E 20 09 41 43 45 2F 67 72 20 66 69 74 20 64 65 73 63 72 69 70 74 69 6F 6E 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='41 43 31 30 31 35' name='AutoDesk AutoCAD R2000' mime='application/octet-stream' ext=''/>
+			<match bytes='41 43 31 30 31 34' name='AutoDesk AutoCAD R14 ' mime='application/octet-stream' ext=''/>
+			<match bytes='41 43 31 30 31 33' name='AutoCad (release 13)' mime='application/octet-stream' ext=''/>
+			<match bytes='41 43 31 30 31 32' name='AutoDesk AutoCAD R13' mime='application/octet-stream' ext=''/>
+			<match bytes='41 43 31 30 31' name='AutoCAD' mime='application/octet-stream' ext=''/>
+			<match bytes='41 2F 45 26 67 74 3B 09 41 2F 45 20 53 47 4D 4C 20 44 6F 63 75 6D 65 6E 74 20 62 69 6E 61 72 79' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='41 23 53 23 43 23 53 23 53 23 4C 23 56 23 33' name='Synthesizer Generator or Kimwitu data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 23 53 23 43 23 53 23 53 23 4C 23 48 55 42' name='Kimwitu++ data' mime='application/octet-stream' ext=''/>
+			<match bytes='41 20 5F 74 65 78 74 09 4C 69 6E 75 78 20 6B 65 72 6E 65 6C 20 73 79 6D 62 6F 6C 20 6D 61 70 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='41 00 00 10' name='Psion Series 5 ROM multi-bitmap image' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='42'>
+			<match bytes='42 D2 00 34 12 66 22 88' name='RADCOM WAN/LAN Analyzer capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='42 6F 72 6C 61 6E 64 20 43 2B 2B 20 50 72 6F' name='MSVC .ide' mime='application/octet-stream' ext=''/>
+			<match bytes='42 6F 6F 73 74 65 72 20 6D 6F 64 75 6C 65 26 23 30 3B 09 25 73' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='42 6C 69 6E 6B' name='Blink archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='42 69 74 6D 61 70 66 69 6C 65' name='HP Bitmapfile' mime='application/octet-stream' ext=''/>
+			<match bytes='42 69 62 54 65 58 20 73 74 61 6E 64 61 72 64 20 62 69 62 6C 69 6F 67 72 61 70 68 79 20 20 20 20 20 20 42 69 62 54 65 58 20 73 74 61 6E 64 61 72 64 20 62 69 62 6C 69 6F 67 72 61 70 68 79 20 73 74 79 6C 65 20 74 65 78 74 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='42 69 62 54 65 58 20 60 20 20 20 20 20 42 69 62 54 65 58 20 63 75 73 74 6F 6D 20 62 69 62 6C 69 6F 67 72 61 70 68 79 20 73 74 79 6C 65 20 74 65 78 74 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='42 65 67 69 6E 34' name='Linux Software Map entry text (new format)' mime='application/octet-stream' ext=''/>
+			<match bytes='42 65 67 69 6E 33' name='Linux Software Map entry text' mime='application/octet-stream' ext=''/>
+			<match bytes='42 65 67 69 6E 09 62 74 6F 61 26 23 33 39 3B 64 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='42 65 45 70 00' name='JamCracker Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='42 5A 68' name='bzip2 compressed data' mime='application/x-bzip2' ext='bz2'/>
+			<match bytes='42 5A' name='bzip compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='42 4F 4D 53 74 6F 72 65' name='Mac OS X bill of materials (BOM) fil' mime='application/octet-stream' ext=''/>
+			<match bytes='42 4F 41' name='BOA archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='42 4D' name='PC bitmap data' mime='image/bmp' ext='bmp'/>
+			<match bytes='42 4C 45 4E 44 45 52' name='Blender3D' mime='application/octet-stream' ext=''/>
+			<match bytes='42 49 58 30' name='BIX archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='42 49 54 4D 41 50 31 09 53 6F 66 74 51 75 61 64 20 52 61 73 74 65 72 20 46 6F 72 6D 61 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='42 48 05 07' name='BlakHole archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='42 45 47 4D 46' name='clear text Computer Graphics Metafile' mime='application/octet-stream' ext=''/>
+			<match bytes='42 45 47 49 4E 3A 56 43 41 52 44' name='vCard visiting card' mime='application/octet-stream' ext=''/>
+			<match bytes='42 45 47 49 4E 3A 56 43 41 4C 45 4E 44 41 52' name='vCalendar calendar file' mime='application/octet-stream' ext=''/>
+			<match bytes='42 45 47 49 4E 20 53 50 45 43 57 45 42' name='SPECweb' mime='application/octet-stream' ext=''/>
+			<match bytes='42 41 42 59 4C' name='Emacs RMAIL text' mime='application/octet-stream' ext=''/>
+			<match bytes='42 41 28 00 00 00 2E 00 00 00 00 00 00 00' name='Icon for MS Windows' mime='application/octet-stream' ext=''/>
+			<match bytes='42 01' name='MIPSEL MIPS-III ECOFF executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='43'>
+			<match bytes='43 AB 91 67 98 00 00 00' name='Webshots Desktop .wbz file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 72 73 68 44 75 6D 70' name='IRIX vmcore dump of' mime='application/octet-stream' ext=''/>
+			<match bytes='43 6F 72 65 02' name='Alpha COFF format core dump (Digital UNIX)' mime='application/octet-stream' ext=''/>
+			<match bytes='43 6F 72 65 01' name='Alpha COFF format core dump (Digital UNIX)' mime='application/octet-stream' ext=''/>
+			<match bytes='43 68 69 57 72 69 74 65 72 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='43 68 66 4C 5A' name='ChiefLZA archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='43 61 6D 6C 31 39 39 39' name='Objective caml' mime='application/octet-stream' ext=''/>
+			<match bytes='43 57 53' name='Macromedia Flash data (compressed)' mime='application/x-shockwave-flash' ext='swf'/>
+			<match bytes='43 54 4D 46' name='Creative Music (CMF) data' mime='audio/unknown' ext=''/>
+			<match bytes='43 53 42 4B' name='Ted Neslson&#39;s CosmicBook hypertext file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 52 66 73' name='COBALT boot rom data (Flat boot rom or file system)' mime='application/octet-stream' ext=''/>
+			<match bytes='43 52 55 53 48' name='Crush archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='43 52 45 47' name='Windows 95/98/ME registry file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 50 43 20 44 53 4B 20 46 69 6C 20 41 6D 73 74 72 61 64 2F 53 70 65 63 74 72 75 6D 20 45 78 74 65 6E 64 65 64 20 2E 44 53 4B 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4F 57 44' name='VMWare3' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4F 53 4F 00' name='Hippel-COSO Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4F 00' name='CMP archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4D 50 30 43 4D 50' name='Compressia archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4B 44 5F 53 33 37 30' name='Hercules CKD DASD shadow file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4B 44 5F 50 33 37 30' name='Hercules CKD DASD image file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 4B 44 5F 43 33 37 30' name='Hercules compressed CKD DASD image file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 49 4D 47' name='Alias Maya Image File' mime='application/octet-stream' ext=''/>
+			<match bytes='43 44 46 01' name='NetCDF Data Format data' mime='application/octet-stream' ext=''/>
+			<match bytes='43 43 53 44 33 5A 46' name='PDS (CCSD) image data' mime='application/octet-stream' ext=''/>
+			<match bytes='43 42 4D 64 00 00' name='Power 64 C64 Emulator Snapshot' mime='application/octet-stream' ext=''/>
+			<match bytes='43 41 52 20 61 72 63 68 69 76 65 20 68 65 61 64 65 72 20 53 41 50 43 41 52 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='43 36 34 53 20 74 61 70 65 20 69 6D 61 67 65 20 66 69 6C 65 00 00 00 00 00 00 00 00 00 00 00' name='T64 tape Image' mime='application/octet-stream' ext=''/>
+			<match bytes='43 36 34 53 20 74 61 70 65 20 66 69 6C 65' name='T64 tape Image' mime='application/octet-stream' ext=''/>
+			<match bytes='43 36 34 49 6D 61 67 65' name='PC64 Freezer Image' mime='application/octet-stream' ext=''/>
+			<match bytes='43 36 34 46 69 6C 65' name='PC64 Emulator file' mime='application/octet-stream' ext=''/>
+			<match bytes='43 36 34 20 74 61 70 65 20 69 6D 61 67 65 20 66 69 6C 65 00 00 00 00 00 00 00 00 00 00 00 00' name='T64 tape Image' mime='application/octet-stream' ext=''/>
+			<match bytes='43 36 34 20 43 41 52 54 52 49 44 47 45' name='CCS C64 Emultar Cartridge Image' mime='application/octet-stream' ext=''/>
+			<match bytes='43 2F 43 2B 2B 20 09 4D 53 56 43 20 70 72 6F 67 72 61 6D 20 64 61 74 61 62 61 73 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='43 15 41 64' name='X64 Image' mime='application/octet-stream' ext=''/>
+			<match bytes='43 01' name='basic-16 executable (TV)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='44'>
+			<match bytes='44 72 61 77' name='RiscOS Drawfile' mime='application/octet-stream' ext=''/>
+			<match bytes='44 6F 63 75 6D 65 6E 74 20 46 69 6C 65 09 48 61 6E 67 75 6C 20 28 4B 6F 72 65 61 6E 29 20 57 6F 72 64 20 50 72 6F 63 65 73 73 6F 72 20 46 69 6C 65 20 33 2E 30' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='44 5A' name='Dzip archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='44 56 44 56 49 44 45 4F 2D 56 54 53' name='Video title set' mime='application/octet-stream' ext=''/>
+			<match bytes='44 56 44 56 49 44 45 4F 2D 56 4D 47' name='Video manager' mime='application/octet-stream' ext=''/>
+			<match bytes='44 54 4A 50 43 48 30 00 12 43 06 80' name='Microsoft Visual C .pch' mime='application/octet-stream' ext=''/>
+			<match bytes='44 54 44 26 67 74 3B 09 43 6F 6D 70 69 6C 65 64 20 53 47 4D 4C 20 72 75 6C 65 73 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='44 53 54' name='Disintegrator archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='44 53 4D 1A' name='Dynamic Studio Module DSM' mime='application/octet-stream' ext=''/>
+			<match bytes='44 53 49 47 44 43 43' name='CrossePAC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='44 53 00' name='Quantum archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4F 53 05' name='Amiga Fastdir FFS disk' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4F 53 04' name='Amiga Fastdir DOS disk' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4F 53 03' name='Amiga Inter FFS disk' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4F 53 02' name='Amiga Inter DOS disk' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4F 53 01' name='Amiga FFS disk' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4F 53 00' name='Amiga DOS disk' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4D 53 21' name='DMS archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='44 4D 44 4C' name='DigiTrakker MDL Module' mime='application/octet-stream' ext=''/>
+			<match bytes='44 45 45 50' name='Alias Maya Image File' mime='application/octet-stream' ext=''/>
+			<match bytes='44 44 4D 46' name='Xtracker DMF Module' mime='application/octet-stream' ext=''/>
+			<match bytes='44 43 55 31' name='Borland Delphi .DCU file' mime='application/octet-stream' ext=''/>
+			<match bytes='44 42 4D 30' name='DIGI Booster Pro Module' mime='application/octet-stream' ext=''/>
+			<match bytes='44 31 2E 30 0D' name='X11 Speedo font data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='45'>
+			<match bytes='45 78 74 72 65 6D 65' name='Extreme Tracker AMS Module v1.3' mime='application/octet-stream' ext=''/>
+			<match bytes='45 78 74 65 6E 64 65 64 20 49 6E 73 74 72 75 6D 65 6E 74 3A' name='Fast Tracker II Instrument' mime='application/octet-stream' ext=''/>
+			<match bytes='45 5A 44 5F 4D 41 50' name='NEWEZD Electron Density Map' mime='application/octet-stream' ext=''/>
+			<match bytes='45 58 45 09 53 6F 6E 79 20 50 6C 61 79 73 74 61 74 69 6F 6E 20 65 78 65 63 75 74 61 62 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='45 53 54 46 42 49 4E 52' name='EST flat binary' mime='application/octet-stream' ext=''/>
+			<match bytes='45 53 50' name='ESP archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='45 51 20 6C 69 62 72 61 72 79 20 66 69 6C 65 09 25 73' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='45 4D 4F 44 00' name='Amiga E module' mime='application/octet-stream' ext=''/>
+			<match bytes='45 4D 4F 44' name='Extended MOD sound data' mime='application/octet-stream' ext=''/>
+			<match bytes='45 4C 49 20 35 37 35 30 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='45 43 58 4D 00' name='ECX module' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='46'>
+			<match bytes='46 72 6F 6D 3A' name='news or mail text' mime='message/rfc822	7bit' ext=''/>
+			<match bytes='46 69 6C 65 20 09 50 65 72 73 6F 6E 61 6C 20 4E 65 74 57 61 72 65 20 50 61 63 6B 65 64 20 46 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='46 69 4C 65 53 74 41 72 54 66 49 6C 45 73 54 61 52 74' name='binscii (apple ][) text' mime='application/octet-stream' ext=''/>
+			<match bytes='46 57 53' name='Macromedia Flash data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 54 4D 4E' name='FaceTheMusic module' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4F 58 53 51 5A' name='FoxSQZ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4F 52 4D' name='IFF data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4F 4E 54 04' name='RISC OS 4bpp font data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4F 4E 54 01' name='RISC OS 1bpp font data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4F 4E 54 00' name='RISC OS outline font data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4F 4E 54' name='ASCII vfont text' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4E 44 52' name='Macintosh Finder (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='46 4C 56' name='Macromedia Flash Video' mime='application/octet-stream' ext=''/>
+			<match bytes='46 49 5A' name='FIZ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='46 46 49 4C' name='Macintosh Truetype Font (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='46 43 53 33 2E 30' name='Flow Cytometry Standard (FCS) data, version 3.0' mime='application/octet-stream' ext=''/>
+			<match bytes='46 43 53 32 2E 30' name='Flow Cytometry Standard (FCS) data, version 2.0' mime='application/octet-stream' ext=''/>
+			<match bytes='46 43 53 31 2E 30' name='Flow Cytometry Standard (FCS) data, version 1.0' mime='application/octet-stream' ext=''/>
+			<match bytes='46 43 31 34' name='Future Composer 1.4 Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='46 41 54 58' name='FATX filesystem data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='47'>
+			<match bytes='47 72 61 64 69 65 6E 74 20 20 47 49 4D 50 20 67 72 61 64 69 65 6E 74 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='47 72 61 63 65 20 70 72 6F 6A 65 63 74 20 66 69 6C 65 09 09 47 72 61 63 65 20 70 72 6F 6A 65 63 74 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='47 6C 75 6C' name='Glulx game data' mime='application/octet-stream' ext=''/>
+			<match bytes='47 53 54 49 6D 00 00' name='GNU SmallTalk' mime='application/octet-stream' ext=''/>
+			<match bytes='47 52 47' name='Gringotts data file' mime='application/octet-stream' ext=''/>
+			<match bytes='47 4D 42 55' name='NetMon capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='47 4B 53 4D' name='GKS Metafile' mime='application/octet-stream' ext=''/>
+			<match bytes='47 49 46 38' name='GIF image data' mime='image/gif' ext='gif'/>
+			<match bytes='47 46 31 50 41 54 43 48 31 31 30 00 49 44 23 30 30 30 30 30 32 00' name='GUS patch' mime='application/octet-stream' ext=''/>
+			<match bytes='47 46 31 50 41 54 43 48 31 30 30 00 49 44 23 30 30 30 30 30 32 00' name='Old GUS	patch' mime='application/octet-stream' ext=''/>
+			<match bytes='47 45 52 42 49 4C 44 4F 43' name='First Choice document' mime='application/octet-stream' ext=''/>
+			<match bytes='47 45 52 42 49 4C 44 42' name='First Choice database' mime='application/octet-stream' ext=''/>
+			<match bytes='47 45 52 42 49 4C 43 4C 49 50' name='First Choice database' mime='application/octet-stream' ext=''/>
+			<match bytes='47 45 52 42 49 4C' name='First Choice device file' mime='application/octet-stream' ext=''/>
+			<match bytes='47 44 42 4D' name='GNU dbm 2.x database' mime='application/x-gdbm' ext='dbm'/>
+			<match bytes='47 43 52 2D 31 35 34 31' name='GCR Image' mime='application/octet-stream' ext=''/>
+			<match bytes='47 43 41 58' name='GCA archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='48'>
+			<match bytes='48 57 42 00 FF 01 00 00 00' name='Microsoft Visual C .APS file' mime='application/octet-stream' ext=''/>
+			<match bytes='48 56 51 4D 34' name='%s' mime='application/octet-stream' ext=''/>
+			<match bytes='48 54 54 50 20 43 6F 6F 6B 69 65 20 46 69 6C 65 09 57 65 62 20 62 72 6F 77 73 65 72 20 63 6F 6F 6B 69 65 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='48 53 50 10 9B 00' name='OS/2 HLP' mime='application/octet-stream' ext=''/>
+			<match bytes='48 53 50 01 9B 00' name='OS/2 INF' mime='application/octet-stream' ext=''/>
+			<match bytes='48 50 48 50 34 39 2D' name='HP49 binary' mime='application/octet-stream' ext=''/>
+			<match bytes='48 50 48 50 34 38 2D' name='HP48 binary' mime='application/octet-stream' ext=''/>
+			<match bytes='48 50 41 4B' name='HPACK archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='48 50 41' name='HPA archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='48 4D 02' name='LVM1 (Linux Logical Volume Manager), version 2' mime='application/octet-stream' ext=''/>
+			<match bytes='48 4D 01' name='LVM1 (Linux Logical Volume Manager), version 1' mime='application/octet-stream' ext=''/>
+			<match bytes='48 4C 53 51 5A' name='Squeeze It archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='48 01' name='x86 executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='49'>
+			<match bytes='49 6E 74 65 72 70 72 65 73 73 2F 58 65 72 6F 78' name='Xerox InterPress data' mime='application/octet-stream' ext=''/>
+			<match bytes='49 6E 64 65 78 3A' name='RCS/CVS diff output text' mime='application/octet-stream' ext=''/>
+			<match bytes='49 57 41 44' name='DOOM or DOOM ][ world' mime='application/octet-stream' ext=''/>
+			<match bytes='49 54 53 46 03 00 00 00 60 00 00 00 01 00 00 00' name='MS Windows HtmlHelp Data' mime='application/octet-stream' ext=''/>
+			<match bytes='49 54 30 32' name='FIT image data' mime='application/octet-stream' ext=''/>
+			<match bytes='49 54 30 31' name='FIT image data' mime='application/octet-stream' ext=''/>
+			<match bytes='49 53 63 28' name='InstallShield Cabinet archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='49 53 50 4C' name='ispell' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4E 49 54' name='Macintosh Extension (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4E 46 4F 46 49 4C 45 09 53 69 64 70 6C 61 79 20 69 6E 66 6F 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4D 50 53' name='Impulse Tracker Sample' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4D 50 4D' name='Impulse Tracker module sound data -' mime='audio/x-mod' ext='mod'/>
+			<match bytes='49 4D 50 49' name='Impulse Tracker Instrument' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4D 50 0A' name='IMP archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4D 47 66 69 6C 65' name='CIS 	compimg HP Bitmapfile' mime='application/octet-stream' ext=''/>
+			<match bytes='49 49 4E 31' name='NIFF image data' mime='image/x-niff' ext=''/>
+			<match bytes='49 49 2A 00' name='TIFF image data, little-endian' mime='application/octet-stream' ext=''/>
+			<match bytes='49 44 53 32' name='Quake II SP2 sprite file' mime='application/octet-stream' ext=''/>
+			<match bytes='49 44 50 32' name='Quake II 3D Model file' mime='application/octet-stream' ext=''/>
+			<match bytes='49 44 33' name='Audio file with ID3 version 2' mime='audio/mpeg' ext='mp3'/>
+			<match bytes='49 43 45 21' name='SNDH Atari ST music' mime='application/octet-stream' ext=''/>
+			<match bytes='49 42 53 50' name='Quake' mime='application/octet-stream' ext=''/>
+			<match bytes='49 01' name='x86 executable (TV)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4A'>
+			<match bytes='4A 6F 79 21 70 65 66 66 70 77 70 63' name='header for PowerPC PEF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 52 63 68 69 76 65' name='JRC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 47 04 0E 00 00 00 00' name='ART' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 43 48' name='EdLib' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 41 52 43 53' name='JAR (ARJ Software, Inc.) archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 41 4D 20 61 72 63 68 69 76 65 2C' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 41 4D 00' name='JAM message area header file' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 01' name='iAPX 286 executable small model (COFF)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4B'>
+			<match bytes='4B 69 53 53' name='KISS/GS' mime='application/octet-stream' ext=''/>
+			<match bytes='4B 61 72 6D 61 52 48 44' name='Version	Karma Data Structure Version' mime='application/octet-stream' ext=''/>
+			<match bytes='4B 49 43 4B' name='Kickstart disk' mime='application/octet-stream' ext=''/>
+			<match bytes='4B 44 4D 56' name='VMware4 disk image' mime='application/octet-stream' ext=''/>
+			<match bytes='4B 44 45 20 43 6F 6F 6B 69 65 20 46 69 6C 65 09 4B 6F 6E 71 75 65 72 6F 72 20 63 6F 6F 6B 69 65 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4C'>
+			<match bytes='4C 5A 58' name='LZX compressed archive (Amiga)' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 5A' name='MS-DOS executable (built-in)' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 57 46 4E' name='Macintosh Postscript Font (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 4D 38 39 35 33' name='Yamaha TX Wave' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 49 4D 1A' name='LIM archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 47' name='Arhangel archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 45 4F 4C 5A 57' name='PAKLeo archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 44 48 69' name='ld.so hints file (Big Endian' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 43 44 69' name='Dream Animator file' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 42 4C 53 49 5A 45 3D' name='VICAR image data' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 01' name='80386 COFF executable' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 00 00 00 01 14 02 00 00 00 00 00 C0 00 00 00 00 00 00 46' name='MS Windows shortcut' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 75 73 69 63 2D 66 69 6C 65 20 2F 20 28 63 29 20 28 42 65 4E 29 6A 61 6D 69 09 73 63 36 38 20 41 74 61 72 69 20 53 54 20 6D 75 73 69 63' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 6F 64 75 6C 65 3A 20 46 61 73 74 74 72 61 63 6B 65 72 20 49 49 20 6D 6F 64 75 6C 65 20 73 6F 75 6E 64 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 61 79 61 46 4F 52 34' name='Alias Maya Binary File' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 61 70 6C 65 20 77 6F 72 6B 73 68 65 65 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 61 67 69 63 09 6D 61 67 69 63 20 74 65 78 74 20 66 69 6C 65 20 66 6F 72 20 66 69 6C 65 28 31 29 20 63 6D 64' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 61 65 73 74 72 6F 0D' name='RISC OS music file' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 5A' name='MS-DOS executable' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 54 68 64' name='Standard MIDI data' mime='audio/unknown' ext=''/>
+			<match bytes='4D 54 5A 20' name='MTZ reflection file' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 54 32 30' name='MadTracker 2.0 Module MT2' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 53 54 53 4D' name='NPack archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 53 43 46 00 00 00 00' name='Microsoft Cabinet archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 53 43 45 00 00 00 00' name='Microsoft WinCE install header' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 50 33 1A' name='MP3-Archiver archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 50 2B' name='Musepack audio' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4F 56 49' name='Silicon Graphics movie file' mime='video/sgi' ext='sgi'/>
+			<match bytes='4D 4F 44 49 4E 46 4F 31' name='Open Cubic Player Module Inforation MDZ' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 4D 44' name='Yamaha SMAF file' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 44 33' name='OctaMED Soundstudio music file, version 3' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 44 31' name='OctaMED Pro music file, version 1' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 44 30' name='MED music file, version 0' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 41 50 42 46 00 01 00 00 00 83 00 01 00' name='Mathematica PBF (fonts I think)' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 00 2A' name='TIFF image data, big-endian' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 49 4D 45 2D 56 65 72 73 69 6F 6E 3A' name='MIME entity text' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 45 44' name='MED_Song' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 44 6D 64' name='MDCD archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 44 49 46 1A 00 08 00 00 00 FA 26 40 7D 01 00 01 1E 01 00' name='MS Windows special zipped file' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 43 6F 6D 70 72 48 44' name='MAME CHD compressed hard disk image' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 41 59 41 46 4F 52 34' name='Alias Maya Binary File' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 41 54 4C 41 42' name='Matlab v5 mat-file' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 41 53 5F 55' name='ULT(imate) Module sound data' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 41 43 20' name='Monkey&#39;s Audio compressed format' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4E'>
+			<match bytes='4E F5 46 E9 6C E5' name='NuFile archive (apple ][) data' mime='application/octet-stream' ext=''/>
+			<match bytes='4E C3 B5 46 C3 A9 6C C3 A5' name='NuLIB archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 75 46 69 6C 65' name='NuFile archive (apple ][) data' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 71 4E 71 4E 71 60 04' name='QL firmware executable (BCPL)' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 65 74 77 6F 72 6B 73 20 49 6E 63 2E 0A 46 69 72 6D 77 61 72 65 20 76 20 20 20 20 20 50 61 67 65 64 20 43 4F 42 41 4C 54 20 62 6F 6F 74 20 72 6F 6D' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 65 74 73 63 61 70 65 20 66 6F 6C 64 65 72 20 63 61 63 68 65 09 4E 65 74 73 63 61 70 65 20 66 6F 6C 64 65 72 20 63 61 63 68 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 65 74 73 63 61 70 65 20 48 54 54 50 20 43 6F 6F 6B 69 65 20 46 69 6C 65 09 4E 65 74 73 63 61 70 65 20 63 6F 6F 6B 69 65 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 65 74 53' name='NetStumbler log file' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 53 4B' name='NaShrink archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 50 46 46' name='NItpicker Flow File ' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 4A 50 4C 31 49 30 30' name='PDS (JPL) image data' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 49 54 46' name='National Imagery Transmission Format' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 45 53 4D 1A' name='NES Sound File' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 45 53 1A' name='iNES ROM dump' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 41 4D 45 3D 09 4D 61 70 6C 65 20 68 65 6C 70 20 66 69 6C 65 20 77 69 74 68 20 65 78 74 72 61 20 63 61 72 72 69 61 67 65 20 72 65 74 75 72 6E 20 61 74 20 73 74 61 72 74 20 28 79 75 63 6B 29' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4E 41 4D 45 3D 09 4D 61 70 6C 65 20 68 65 6C 70 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4F'>
+			<match bytes='4F 67 67 53' name='Ogg data' mime='application/ogg' ext='ogg'/>
+			<match bytes='4F 63 74 61 76 65 2D 31 2D 4C' name='Octave binary data (little endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 63 74 61 76 65 2D 31 2D 42' name='Octave binary data (big endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 63 74 61 4D 45 44 43 6D 70 72' name='OctaMED Soundstudio compressed file' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 62 73 65 72 76 65 72 50 6B 74 42 75 66 66 65' name='Network Instruments Observer capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 5A C3 9D' name='ZET archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 54 54 4F' name='OpenType font data ' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 4F 4F 4D' name='User-Mode-Linux&#39;s Copy-On-Write disk image' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 4B 54 41 53 4F 4E 47' name='Oktalyzer module data' mime='application/octet-stream' ext=''/>
+			<match bytes='4F 3A' name='Solitaire Image Recorder format' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='50'>
+			<match bytes='50 90 01 08' name='Pyramid 90x family pure executable' mime='application/octet-stream' ext=''/>
+			<match bytes='50 90 01 07' name='Pyramid 90x family executable' mime='application/octet-stream' ext=''/>
+			<match bytes='50 6D 4E 73' name='PCP compiled namespace (V.0)' mime='application/octet-stream' ext=''/>
+			<match bytes='50 6D 4E' name='PCP compiled namespace' mime='application/octet-stream' ext=''/>
+			<match bytes='50 63 50 68' name='PCP Help ' mime='application/octet-stream' ext=''/>
+			<match bytes='50 61 74 68 3A' name='news text' mime='message/news	8bit' ext=''/>
+			<match bytes='50 61 65 68 6C 20 44 50 41 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='50 61 52 74 49 6D 41 67 45 2D 56 6F 4C 75 4D 65' name='PartImage' mime='application/octet-stream' ext=''/>
+			<match bytes='50 61 43 6B 41 67 45 20 44 61 54 61 53 74 52 65 41 6D 20 20 70 6B 67 20 44 61 74 61 73 74 72 65 61 6D 20 28 53 56 52 34 29' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='50 57 41 44' name='DOOM or DOOM ][ extension world' mime='application/octet-stream' ext=''/>
+			<match bytes='50 56 46 32 0A' name='portable voice format' mime='application/octet-stream' ext=''/>
+			<match bytes='50 56 46 31 0A' name='portable voice format' mime='application/octet-stream' ext=''/>
+			<match bytes='50 53 55 52' name='ARC archive (c64)' mime='application/octet-stream' ext=''/>
+			<match bytes='50 53 4D 1A' name='Protracker Studio PSM Module' mime='application/octet-stream' ext=''/>
+			<match bytes='50 53 49 44' name='PlaySID v2.2+ (AMIGA) sidtune' mime='application/octet-stream' ext=''/>
+			<match bytes='50 53 41' name='PSA archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 50 4D 5A' name='PPMZ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 50 32 30' name='Power Packer 2.0 compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 50 31 31' name='Power Packer 1.1 compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4F 5E 51 60' name='Microsoft Word 6.0 Document' mime='application/msword' ext='doc'/>
+			<match bytes='50 4D 43 43' name='Windows 3.x .GRP file' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4C 55 53 33 44 4F 53 1A' name='Spectrum +3 data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4C 4F 54 25 25 38 34' name='Plot84 plotting file' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4B 30 30 50 4B 03 04' name='Zip archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4B 08 08 42 47 49' name='Borland font ' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4B 03 06' name='ReSOF archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 48 49 4C 49 50 50' name='Par archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 46 52 31' name='PFR1 font' mime='application/octet-stream' ext=''/>
+			<match bytes='50 44 5A' name='PDZ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 44 53 5F' name='PDS image data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 44 46' name='Macintosh PDF File (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='50 43 50 46 6F 6C 69 6F' name='PCP ' mime='application/octet-stream' ext=''/>
+			<match bytes='50 43 44 5F 4F 50 41' name='Kodak Photo CD overview pack file' mime='application/octet-stream' ext=''/>
+			<match bytes='50 41 52 00' name='PARity archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 41 52' name='Par archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 41 51' name='PAQ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='50 41 43 54' name='Macintosh Compact Pro Archive (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='50 41 43 4B' name='RiscOS PackdDir archive' mime='application/octet-stream' ext=''/>
+			<match bytes='50 37' name='Netpbm PAM image file' mime='application/octet-stream' ext=''/>
+			<match bytes='50 36' name='Netpbm PPM &quot;rawbits&quot; image data' mime='image/x-portable-pixmap' ext='ppm'/>
+			<match bytes='50 35' name='Netpbm PGM &quot;rawbits&quot; image data' mime='image/x-portable-greymap' ext='pgm'/>
+			<match bytes='50 34' name='Netpbm PBM &quot;rawbits&quot; image data' mime='image/x-portable-bitmap' ext='pbm'/>
+			<match bytes='50 33' name='Netpbm PPM image text' mime='image/x-portable-pixmap	7bit' ext=''/>
+			<match bytes='50 32' name='Netpbm PGM image text' mime='image/x-portable-greymap	7bit' ext=''/>
+			<match bytes='50 31' name='Netpbm PBM image text' mime='image/x-portable-bitmap	7bit' ext=''/>
+			<match bytes='50 09 70 72 6F 6A 65 63 74 20 66 69 6C 65 20 66 6F 72 20 66 74 6E 63 68 65 6B' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='50 05' name='Hitachi SH little-endian COFF' mime='application/octet-stream' ext=''/>
+			<match bytes='50 00 00 10' name='Psion Series 5' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='51'>
+			<match bytes='51 4C 35' name='QL disk dump data' mime='application/octet-stream' ext=''/>
+			<match bytes='51 45 56 4D' name='QEMU&#39;s suspend to disk image' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='52'>
+			<match bytes='52 75 6E 65 43 54' name='Citrus locale declaration for LC_CTYPE' mime='application/octet-stream' ext=''/>
+			<match bytes='52 65 74 75 72 6E 2D 50 61 74 68 3A' name='smtp mail text' mime='message/rfc822	7bit' ext=''/>
+			<match bytes='52 65 6C 61 79 2D 56 65 72 73 69 6F 6E 3A' name='old news text' mime='message/rfc822	7bit' ext=''/>
+			<match bytes='52 65 63 65 69 76 65 64 3A' name='RFC 822 mail text' mime='message/rfc822' ext='msg'/>
+			<match bytes='52 61 73 74' name='RST-format raster font data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 61 72 21' name='RAR archive data' mime='application/x-rar' ext='rar'/>
+			<match bytes='52 5A 58 21' name='Spectrum .RZX data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 5A 49 50' name='rzip compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 54 53 53' name='NetMon capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='52 54 4D 4D' name='RTM Module' mime='application/octet-stream' ext=''/>
+			<match bytes='52 53 52 43' name='National Instruments' mime='application/octet-stream' ext=''/>
+			<match bytes='52 53 49 44' name='RSID sidtune PlaySID compatible' mime='application/octet-stream' ext=''/>
+			<match bytes='52 52 44' name='RRDTool DB' mime='application/octet-stream' ext=''/>
+			<match bytes='52 4E 43' name='PRO-PACK archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 4D 44 31' name='raw modem data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 49 46 58' name='RIFF (big-endian) data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 49 46 46' name='RIFF (little-endian) data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 45 7E 5E' name='RAR archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='52 44 53 4B' name='Rigid Disk Block' mime='application/octet-stream' ext=''/>
+			<match bytes='52 42 34 30' name='RBS Song file' mime='application/octet-stream' ext=''/>
+			<match bytes='52 41 57 41 44 41 54 41' name='RdosPlay RAW' mime='application/octet-stream' ext=''/>
+			<match bytes='52 41 44 20 62 79 20 52 45 41 4C 69 54 59 21 21' name='RAD Adlib Tracker Module RAD' mime='application/octet-stream' ext=''/>
+			<match bytes='52 41 42 42 49 54 47 52 41 50 48' name='RabbitGraph file' mime='application/octet-stream' ext=''/>
+			<match bytes='52 01' name='iAPX 286 executable large model (COFF)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='53'>
+			<match bytes='53 79 6E 74 68 34 2E 30' name='Synthesis Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 79 6D 4D' name='Symphonie SymMOD music file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 74 75 66 66 49 74' name='StuffIt Archive' mime='application/x-stuffit' ext='sit'/>
+			<match bytes='53 74 61 72 74 75 70 20 61 6E 64 09 41 63 75 6C 61 62 20 56 6F 49 50 20 66 69 72 6D 77 61 72 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='53 74 61 72 74 46 6F 6E 74 4D 65 74 72 69 63 73' name='ASCII font metrics' mime='application/octet-stream' ext=''/>
+			<match bytes='53 74 61 72 74 46 6F 6E 74' name='ASCII font bits' mime='application/octet-stream' ext=''/>
+			<match bytes='53 6F 66 74 51 75 61 64 20 74 72 6F 66 66 20 43 6F 6E 74 65 78 74 20 69 6E 74 65 72 6D 65 64 69 61 74 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='53 68 6F 70 20 50 72 6F 20 49 6D 61 67 65 20 46 69 6C 65 09 50 61 69 6E 74 20 53 68 6F 70 20 50 72 6F 20 49 6D 61 67 65 20 46 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='53 66 66 66' name='structured fax file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 65 67' name='StuffIt Deluxe Segment (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='53 5A 0A 04' name='SZip archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='53 58 39 36 31 39 39 39' name='Net2phone' mime='application/octet-stream' ext=''/>
+			<match bytes='53 54 53 26 67 74 3B 09 41 2F 45 20 53 47 4D 4C 20 62 69 6E 61 72 79 20 73 74 79 6C 65 73 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='53 54 41 52 54 46 4F 4E 54 20' name='X11 BDF font text' mime='application/octet-stream' ext=''/>
+			<match bytes='53 51 57 45 5A' name='SQWEZ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='53 51 53 48' name='squished archive data (Acorn RISCOS)' mime='application/octet-stream' ext=''/>
+			<match bytes='53 51 4C 69 74 65' name='SQLite database' mime='application/octet-stream' ext=''/>
+			<match bytes='53 4F 4E 47' name='DigiTrekker DTM Module' mime='application/octet-stream' ext=''/>
+			<match bytes='53 4D 4F 44' name='Future Composer 1.3 Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 49 54 44' name='StuffIt Deluxe (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='53 49 54 21' name='StuffIt Archive (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='53 48 43 43 33' name='Windows 3.1 registry file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 47 49 41 55 44 49 54' name='SGI Audit file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 45 4D' name='SemOne archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='53 43 68 46' name='ChArc archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='53 43 52 53 48 4F 54 5F' name='scrshot(1) screenshot' mime='application/octet-stream' ext=''/>
+			<match bytes='53 43 43 53 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='53 42 4D 42 41 4B 55 50 5F' name='Smart Boot Manager backup file' mime='application/octet-stream' ext=''/>
+			<match bytes='53 42 49' name='SoundBlaster instrument data' mime='audio/unknown' ext=''/>
+			<match bytes='53 42 43' name='SBC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='53 41 64 54' name='Surprise! Adlib Tracker' mime='application/octet-stream' ext=''/>
+			<match bytes='53 41 53' name='SAS' mime='application/octet-stream' ext=''/>
+			<match bytes='53 41 4D 50 4C 45 20 44 41 54 41 20 09 53 61 6D 70 6C 65 20 56 69 73 69 6F 6E 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='53 30' name='Motorola S-Record; binary data in text format' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='54'>
+			<match bytes='54 69 45 6D 75' name='TiEmu skin' mime='application/octet-stream' ext=''/>
+			<match bytes='54 68 69 73 20 66 69 6C 65 20 63 6F 6E 74 61 69 6E 73 20 61 6E 20 53 51 4C 69 74 65 09 53 51 4C 69 74 65 20 44 61 74 61 62 61 73 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='54 5A 69 66' name='timezone data' mime='application/octet-stream' ext=''/>
+			<match bytes='54 57 49 4E 39 37 30 31 32 30 30 30' name='VQF data' mime='application/octet-stream' ext=''/>
+			<match bytes='54 52 00 64 00' name='&quot;nettl&quot; capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='54 4F 43' name='TOC sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='54 48 58' name='AHX version' mime='application/octet-stream' ext=''/>
+			<match bytes='54 46 4D 58 2D 53 4F 4E 47' name='TFMX module sound data' mime='application/octet-stream' ext=''/>
+			<match bytes='54 45 58 54' name='Macintosh TeachText File (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='54 37 30 37' name='Roland TR-707 Data' mime='application/octet-stream' ext=''/>
+			<match bytes='54 36 30 32 20 64 6F 63 75 6D 65 6E 74 20 64 61 74 61 2C' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='54 34 1A' name='TOP4 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='54 19 01 00' name='Unix Fast File system [v1] (little-endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='54 09 09 64 69 74 72 6F 66 66 20 6F 75 74 70 75 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='55'>
+			<match bytes='55 7A 6E 61' name='xo65 object' mime='application/octet-stream' ext=''/>
+			<match bytes='55 72 6C 43 61 63 68 65 20 4D 4D 46 20 09 4D 69 63 72 6F 73 6F 66 74 20 49 6E 74 65 72 6E 65 74 20 45 78 70 6C 6F 72 65 72 20 43 61 63 68 65 20 46 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='55 55' name='VISX image file' mime='application/octet-stream' ext=''/>
+			<match bytes='55 4E 30 35' name='MikMod UNI format module sound data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 4C 45 42 0A' name='RAX archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 4C 45 42 00' name='Xtreme archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 48 42' name='UHBC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 48 41' name='UHarc archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 46 41' name='UFA archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 43 32 1A' name='UC2 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 42' name='HIT archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='55 2A 55 2A 55 2A 55 2A' name='Apple II image with purple background' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='56'>
+			<match bytes='56 6F 69 63 65 20 46 69 6C 65 09 43 72 65 61 74 69 76 65 20 4C 61 62 73 20 76 6F 69 63 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='56 69 72 74 75 61 6C 20 48 44 20 49 6D 61 67 65 09 42 6F 63 68 73 20 64 69 73 6B 20 69 6D 61 67 65 2C' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='56 69 6D 43 72 79 70 74 7E' name='Vim encrypted file data' mime='application/octet-stream' ext=''/>
+			<match bytes='56 69 6D 20 73 77 61 70 20 66 69 6C 65 2C 20 76 65 72 73 69 6F 6E 20 25 73' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='56 54 49' name='Virtual TI skin' mime='application/octet-stream' ext=''/>
+			<match bytes='56 53 1A' name='VSARC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='56 4D 44 4B' name='VMware4 disk image' mime='application/octet-stream' ext=''/>
+			<match bytes='56 4D 41 50' name='National Instruments, VXI File, data' mime='application/octet-stream' ext=''/>
+			<match bytes='56 42 4F 58' name='VBOX voice message data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='57'>
+			<match bytes='57 72 69 74 65 4E 6F 77 00 02 00 01 00 00 00 00 40 00 00 00 00 00' name='Maple worksheet, but weird' mime='application/octet-stream' ext=''/>
+			<match bytes='57 57 50' name='WWPack archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='57 4E 47 5A 57 5A 53 53' name='Wingz spreadsheet' mime='application/octet-stream' ext=''/>
+			<match bytes='57 4E 47 5A 57 5A 53 43' name='Wingz compiled script' mime='application/octet-stream' ext=''/>
+			<match bytes='57 4E 47 5A 57 5A 48 50' name='Wingz help file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='58'>
+			<match bytes='58 72 65 66 3A' name='news text' mime='message/news	8bit' ext=''/>
+			<match bytes='58 68 44 72' name='X1 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='58 54 46 30' name='XTF, Microsoft Xbox data' mime='application/octet-stream' ext=''/>
+			<match bytes='58 50 4D 20 2A 2F 09 58 20 70 69 78 6D 61 70 20 69 6D 61 67 65 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='58 50 4B 46' name='Amiga xpkf.library compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='58 49 50 30' name='XIP, Microsoft Xbox data' mime='application/octet-stream' ext=''/>
+			<match bytes='58 46 53 42' name='SGI XFS filesystem data' mime='application/octet-stream' ext=''/>
+			<match bytes='58 43 50 00' name='NetXRay capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='58 42 45 48' name='XBE, Microsoft Xbox executable' mime='application/octet-stream' ext=''/>
+			<match bytes='58 41 52 41 A3 A3' name='Xara graphics file' mime='application/octet-stream' ext=''/>
+			<match bytes='58 41 44 21' name='eXotic ADlib' mime='application/octet-stream' ext=''/>
+			<match bytes='58 31' name='X1 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='58 01' name='370 sysV pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='59'>
+			<match bytes='59 42 53' name='Ybs archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='5A'>
+			<match bytes='5A 79 58 45 4C 02' name='ZyXEL voice data' mime='application/octet-stream' ext=''/>
+			<match bytes='5A 65 6E 64 00' name='PHP script Zend Optimizer data' mime='application/octet-stream' ext=''/>
+			<match bytes='5A 5A 30' name='ZZip archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='5A 58 54 61 70 65 21 1A' name='Spectrum .TZX data' mime='application/octet-stream' ext=''/>
+			<match bytes='5A 58 41 59 45 4D 55 4C' name='Spectrum 128 tune' mime='application/octet-stream' ext=''/>
+			<match bytes='5A 01' name='370 XA sysV pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='5B'>
+			<match bytes='5B 70 6C 61 79 6C 69 73 74 5D' name='PLS playlist' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='5C'>
+			<match bytes='5C 73 65 74 6C 65 6E 67 74 68' name='LaTeX document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 73 65 63 74 69 6F 6E' name='LaTeX document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 72 65 6C 61 78' name='LaTeX auxiliary file' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 69 6E 70 75 74' name='TeX document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 69 6E 64 65 78 65 6E 74 72 79' name='LaTeX raw index file' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 69 66 78' name='TeX document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 67 6C 6F 73 73 61 72 79 65 6E 74 72 79' name='LaTeX raw glossary' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 64 6F 63 75 6D 65 6E 74 73 74 79 6C 65' name='LaTeX document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 64 6F 63 75 6D 65 6E 74 63 6C 61 73 73' name='LaTeX 2e document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 63 6F 6E 74 65 6E 74 73 6C 69 6E 65' name='LaTeX  table of contents' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 63 68 61 70 74 65 72' name='LaTeX document text' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 62 65 67 69 6E 7B 74 68 65 69 6E 64 65 78 7D' name='LaTeX sorted index' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 62 65 67 69 6E 7B 74 68 65 67 6C 6F 73 73 61 72 79 7D' name='LaTeX sorted glossary' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 42 61 64 20 66 69 6C 65 20 64 65 73 63 72 69 70 74 6F 72' name='DCL command file' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 31 63 77' name='ChiWriter file' mime='application/octet-stream' ext=''/>
+			<match bytes='5C 22' name='troff or preprocessor input text' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='5D'>
+			<match bytes='5D 01' name='370 sysV executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='5F'>
+			<match bytes='5F 53 47 49 5F 53 6F 75 6E 64 54 72 61 63 6B' name='SGI SoundTrack project file' mime='application/octet-stream' ext=''/>
+			<match bytes='5F 01' name='370 XA sysV executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='60'>
+			<match bytes='60 01' name='MIPSEB-LE ECOFF executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='61'>
+			<match bytes='61 76 61 6F 62 6A' name='AVR assembler object code' mime='application/octet-stream' ext=''/>
+			<match bytes='61 5C 04 05' name='WinHKI archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='62'>
+			<match bytes='62 74 73 6E 6F 6F 70 00' name='BTSnoop' mime='application/octet-stream' ext=''/>
+			<match bytes='62 70 6C 69 73 74 30 30' name='Apple binary property list' mime='application/octet-stream' ext=''/>
+			<match bytes='62 69 6E 09 54 41 44 53' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='62 65 67 69 6E 20' name='uuencoded or xxencoded text' mime='application/octet-stream' ext=''/>
+			<match bytes='62 62 6E 2D 6D 09 44 69 61 6D 6F 6E 64 20 4D 75 6C 74 69 6D 65 64 69 61 20 44 6F 63 75 6D 65 6E 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='62 46 4C 54' name='BFLT executable' mime='application/octet-stream' ext=''/>
+			<match bytes='62 39 02 01' name='mdbm file, version 0 (obsolete)' mime='application/octet-stream' ext=''/>
+			<match bytes='62 31 05 00' name='Berkeley DB 1.85/1.86' mime='application/octet-stream' ext=''/>
+			<match bytes='62 01' name='MIPSEL ECOFF executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='63'>
+			<match bytes='63 73 63 6F 70 65' name='cscope reference data' mime='application/octet-stream' ext=''/>
+			<match bytes='63 6F 72 65' name='core file (Xenix)' mime='application/octet-stream' ext=''/>
+			<match bytes='63 64 65 76' name='Macintosh Control Panel (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='63 01' name='MIPSEB-LE MIPS-II ECOFF executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='64'>
+			<match bytes='64 69 76 65 72 74 28 2D 31 29 0A' name='sendmail m4 text file' mime='application/octet-stream' ext=''/>
+			<match bytes='64 61 75 62 09 4D 61 70 6C 65 20 68 65 6C 70 20 66 69 6C 65 2C 20 6F 6C 64 20 73 74 79 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='64 61 74 61 20 20 20 20 26 23 32 36 3B 09 53 6E 69 66 66 65 72 20 63 61 70 74 75 72 65 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='64 38 3A 61 6E 6E 6F 75 6E 63 65' name='BitTorrent file' mime='application/x-bittorrent' ext='torrent'/>
+		</first>
+		<first byte='65'>
+			<match bytes='65 FF 00 00' name='old VAX archive' mime='application/octet-stream' ext=''/>
+			<match bytes='65 FF' name='old PDP-11 archive' mime='application/octet-stream' ext=''/>
+			<match bytes='65 5D 13 8C 08 01 03 00' name='TSComp archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='66'>
+			<match bytes='66 6C 66' name='FIGlet font' mime='application/octet-stream' ext=''/>
+			<match bytes='66 6C 63' name='FIGlet controlfile' mime='application/octet-stream' ext=''/>
+			<match bytes='66 69 6C 65 26 23 30 3B 26 23 30 3B 26 23 30 3B 09 43 79 72 75 73 20 73 6B 69 70 6C 69 73 74 20 44 42' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='66 69 6C 65 09 09 54 44 42 20 64 61 74 61 62 61 73 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='66 4C 61 43' name='FLAC audio bitstream data' mime='audio/x-flac' ext='flac'/>
+			<match bytes='66 19 00 00' name='Squeak image data' mime='application/octet-stream' ext=''/>
+			<match bytes='66 01' name='MS Windows COFF MIPS R4000 object file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='67'>
+			<match bytes='67 70 63 68' name='GCC precompiled header' mime='application/octet-stream' ext=''/>
+			<match bytes='67 6D 6F 6E' name='GNU prof performance data' mime='application/octet-stream' ext=''/>
+			<match bytes='67 6C 73 42 65 67 69 6E 47 4C 53 28' name='GLS_TEXT' mime='application/octet-stream' ext=''/>
+			<match bytes='67 6C 66 48 65 61 64 4D 61 67 69 63 28 29 3B' name='GLF_TEXT' mime='application/octet-stream' ext=''/>
+			<match bytes='67 57 04 01' name='ARQ archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='68'>
+			<match bytes='68 79 70 65 72 74 65 72 6D' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='68 73 71 73' name='Squashfs filesystem, little endian' mime='application/octet-stream' ext=''/>
+			<match bytes='68 73 69 31' name='JPEG image data, HSI proprietary' mime='application/octet-stream' ext=''/>
+			<match bytes='68 70 09 09 53 6F 66 74 51 75 61 64 20 74 72 6F 66 66 20 43 6F 6E 74 65 78 74 20 69 6E 74 65 72 6D 65 64 69 61 74 65 20 66 6F 72 20 48 50 20 4C 61 73 65 72 4A 65 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='68 02' name='MS Windows COFF Motorola 68000 object file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='69'>
+			<match bytes='69 73 20 6D 61 6B 65 69 6E 64 65 78 09 4D 61 6B 65 69 6E 64 65 78 20 6C 6F 67 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 73 20 61 20 4D 61 74 68 65 6D 61 74 69 63 61 20 62 69 6E 61 72 79 20 09 4D 61 74 68 65 6D 61 74 69 63 61 20 62 69 6E 61 72 79 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 73 20 61 20 42 69 74 4D 61 70 20 66 69 6C 65 09 4C 69 73 70 20 4D 61 63 68 69 6E 65 20 62 69 74 2D 61 72 72 61 79 2D 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 73 20 54 65 58 2C 09 54 65 58 20 74 72 61 6E 73 63 72 69 70 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 73 20 4D 45 54 41 46 4F 4E 54 2C 09 4D 45 54 41 46 4F 4E 54 20 74 72 61 6E 73 63 72 69 70 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 73 20 49 6E 66 6F 20 66 69 6C 65 09 47 4E 55 20 49 6E 66 6F 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 6E 20 09 26 23 33 39 3B 64 69 66 66 26 23 33 39 3B 20 6F 75 74 70 75 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 6D 70 72 09 09 53 6F 66 74 51 75 61 64 20 74 72 6F 66 66 20 43 6F 6E 74 65 78 74 20 69 6E 74 65 72 6D 65 64 69 61 74 65 20 66 6F 72 20 49 4D 41 47 45 4E 20 69 6D 50 52 45 53 53' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='69 64 3D 49 6D 61 67 65 4D 61 67 69 63 6B' name='MIFF image data' mime='application/octet-stream' ext=''/>
+			<match bytes='69 52 69 76 44 42' name='iRiver Database file' mime='application/octet-stream' ext=''/>
+			<match bytes='69 48 44 4C' name='ld.so hints file (Little Endian' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6A'>
+			<match bytes='6A 6D 20 58 50 61 63 6B 20 73 69 6E 67 6C 65 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='6A 6D' name='XPack DiskImage archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6B'>
+			<match bytes='6B 62 64 21 6D 61 70' name='kbd map file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6C'>
+			<match bytes='6C 83 00 00' name='PDP-11 double precision APL workspace' mime='application/octet-stream' ext=''/>
+			<match bytes='6C 69 62 72' name='Macintosh Library (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='6C 65 63 74' name='DEC SRC Virtual Paper Lectern file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6D'>
+			<match bytes='6D FF 00 00' name='very old VAX archive' mime='application/octet-stream' ext=''/>
+			<match bytes='6D FF' name='very old PDP-11 archive' mime='application/octet-stream' ext=''/>
+			<match bytes='6D 83 00 00' name='PDP-11 single precision APL workspace' mime='application/octet-stream' ext=''/>
+			<match bytes='6D 73 67 63 61 74 30 31' name='HP NLS message catalog' mime='application/octet-stream' ext=''/>
+			<match bytes='6D 73 63 64 6F 63 75 6D 65 6E 74' name='Message Sequence Chart (document)' mime='application/octet-stream' ext=''/>
+			<match bytes='6D 73 63' name='Message Sequence Chart (chart)' mime='application/octet-stream' ext=''/>
+			<match bytes='6D 70 75 34 30 31 74 72' name='MPU-401 Trakker' mime='application/octet-stream' ext=''/>
+			<match bytes='6D 64 62 6D' name='mdbm file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6E'>
+			<match bytes='6E 83 00 00' name='VAX double precision APL workspace' mime='application/octet-stream' ext=''/>
+			<match bytes='6E 61 55 7A' name='xo65 library' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6F'>
+			<match bytes='6F 83 00 00' name='VAX single precision APL workspace' mime='application/octet-stream' ext=''/>
+			<match bytes='6F 66 54 41 5A 21' name='eXtra Simple Music' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='70'>
+			<match bytes='70 77 56 31' name='Cracklib password index, big endian' mime='application/octet-stream' ext=''/>
+			<match bytes='70 73 74 30' name='perl Storable(v0.7) data' mime='application/octet-stream' ext=''/>
+			<match bytes='70 73 09 09 53 6F 66 74 51 75 61 64 20 74 72 6F 66 66 20 43 6F 6E 74 65 78 74 20 69 6E 74 65 72 6D 65 64 69 61 74 65 20 66 6F 72 20 50 6F 73 74 53 63 72 69 70 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='70 72 65 73 65 74 5D 09 58 4D 4D 53 20 65 71 75 61 6C 69 7A 65 72 20 70 72 65 73 65 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='70 6D 76 69 65 77' name='PCP pmview config' mime='application/octet-stream' ext=''/>
+			<match bytes='70 6B 08 08 42 47 49' name='Borland device ' mime='application/octet-stream' ext=''/>
+			<match bytes='70 65 72 6C 2D 73 74 6F 72 65' name='perl Storable(v0.6) data' mime='application/octet-stream' ext=''/>
+			<match bytes='70 61 63 6B 61 67 65 34' name='Newton package' mime='application/octet-stream' ext=''/>
+			<match bytes='70 61 63 6B 61 67 65 31' name='Newton package, NOS 2.x' mime='application/octet-stream' ext=''/>
+			<match bytes='70 61 63 6B 61 67 65 30' name='Newton package, NOS 1.x' mime='application/octet-stream' ext=''/>
+			<match bytes='70 61 63 6B 61 67 65' name='Perl5 module source text' mime='application/octet-stream' ext=''/>
+			<match bytes='70 4E' name='PPMN archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='70 4D 38 36' name='Atari ST STAD bitmap image data (vert)' mime='application/octet-stream' ext=''/>
+			<match bytes='70 4D 38 35' name='Atari ST STAD bitmap image data (hor)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='71'>
+			<match bytes='71 C7' name='cpio archive' mime='application/x-cpio' ext=''/>
+			<match bytes='71 A8 00 00 01 02' name='DeIsL1.isu whatever that is' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='72'>
+			<match bytes='72 73 63 09 54 41 44 53' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='72 6F 6F 74 00' name='ROOT file' mime='application/octet-stream' ext=''/>
+			<match bytes='72 6E 65 77 73 09 6D 61 69 6C 65 64 2C 20 62 61 74 63 68 65 64 20 6E 65 77 73 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='72 6E 65 77 73 09 62 61 74 63 68 65 64 20 6E 65 77 73 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='72 65 67 66' name='Windows NT/XP registry file' mime='application/octet-stream' ext=''/>
+			<match bytes='72 64 71 78' name='ReDuq archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='73'>
+			<match bytes='73 B2 90 F4' name='Squish archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='73 75 62 6D 73 63' name='Message Sequence Chart (subchart)' mime='application/octet-stream' ext=''/>
+			<match bytes='73 75 62 64 69 72 65 63 74 6F 72 69 65 73 3A 20 09 26 23 33 39 3B 64 69 66 66 26 23 33 39 3B 20 6F 75 74 70 75 74 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='73 71 73 68' name='Squashfs filesystem, big endian' mime='application/octet-stream' ext=''/>
+			<match bytes='73 70 65 63' name='SPEC' mime='application/octet-stream' ext=''/>
+			<match bytes='73 6E 6F 6F 70' name='Snoop capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='73 68 6C 62' name='Macintosh Shared Library (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='73 63 72 69 70 74 20 74 65 78 74 20 65 78 65 63 75 74 61 62 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='73 61 76 65 2F 67 09 54 41 44 53' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='73 61 76 65 09 54 41 44 53' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='73 54 61 43' name='LZS221 archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='74'>
+			<match bytes='74 74 72 6F' name='Macintosh TeachText File (data)' mime='application/octet-stream' ext=''/>
+			<match bytes='74 6F 20 09 6D 61 69 6C 20 70 69 70 69 6E 67 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='74 6F 20 09 6D 61 69 6C 20 66 6F 72 77 61 72 64 69 6E 67 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='74 68 65 20 66 6F 6C 6C 6F 77 69 6E 67 20 77 69 74 68 20 62 64 65 63 6F 09 62 65 6E 63 6F 64 65 64 20 4E 65 77 73 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='74 66 4D 52 0A 00 00 00 01 00 00 00' name='MS Windows help cache' mime='application/octet-stream' ext=''/>
+			<match bytes='74 65 78 69 6E 66 6F 09 54 65 78 69 6E 66 6F 20 73 6F 75 72 63 65 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='74 64 00' name='floppy image data (TeleDisk)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='76'>
+			<match bytes='76 FF' name='NSQ archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='76 65 72 73 69 6F 6E 3D 26 71 75 6F 74 3B 09 58 4D 4C' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='76 65 72 73 69 6F 6E 2D 09 69 66 66 20 69 6D 61 67 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='76 65 72 73 69 6F 6E 20 26 71 75 6F 74 3B 09 58 4D 4C' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='76 65 72 73 69 6F 6E 09 63 61 74 61 6C 6F 67 20 74 72 61 6E 73 6C 61 74 69 6F 6E' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='78'>
+			<match bytes='78 7A' name='MGR bitmap, old format, 1-bit deep, 32-bit aligned' mime='application/octet-stream' ext=''/>
+			<match bytes='78 76 67 72 20 70 61 72 61 6D 65 74 65 72 20 66 69 6C 65 09 41 43 45 2F 67 72 20 61 73 63 69 69 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='78 70 61 00 01' name='XPA32 archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='78 70 61' name='XPack archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='78 6D 67 72 20 70 61 72 61 6D 65 74 65 72 20 66 69 6C 65 09 41 43 45 2F 67 72 20 61 73 63 69 69 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='78 6B 6D' name='Compiled XKB Keymap: msb' mime='application/octet-stream' ext=''/>
+			<match bytes='78 63 66 09 47 49 4D 50 20 58 43 46 20 69 6D 61 67 65 20 64 61 74 61 2C' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='78 46 53 64 75 6D 70 30' name='xfsdump archive' mime='application/octet-stream' ext=''/>
+			<match bytes='78 20 09 09 54 67 69 66 20 66 69 6C 65 20 76 65 72 73 69 6F 6E 20 25 73' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='78 01' name='VAX COFF executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='79'>
+			<match bytes='79 7A' name='MGR bitmap, modern format, 8-bit aligned' mime='application/octet-stream' ext=''/>
+			<match bytes='79 78' name='MGR bitmap, modern format, squeezed' mime='application/octet-stream' ext=''/>
+			<match bytes='79 00 00 10' name='Psion Series 5 binary:' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='7A'>
+			<match bytes='7A 7A' name='MGR bitmap, old format, 1-bit deep, 16-bit aligned' mime='application/octet-stream' ext=''/>
+			<match bytes='7A 73 79 73' name='Macintosh System File (data)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='7B'>
+			<match bytes='7B 74 69 74 6C 65' name='Chord text file' mime='application/octet-stream' ext=''/>
+			<match bytes='7B 5C 72 74 66' name='Rich Text Format data' mime='text/rtf' ext='rtf'/>
+		</first>
+		<first byte='7D'>
+			<match bytes='7D 01' name='VAX COFF pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='7F'>
+			<match bytes='7F 7F 7F 7F 7F 7F 7F 7F' name='Apple II image with white background' mime='application/octet-stream' ext=''/>
+			<match bytes='7F 76 65 72' name='EtherPeek/AiroPeek capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='7F 4F 4C 46' name='OLF' mime='application/octet-stream' ext=''/>
+			<match bytes='7F 45 4C 46' name='ELF' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='80'>
+			<match bytes='80 08' name='Lynx cartridge' mime='application/octet-stream' ext=''/>
+			<match bytes='80 05' name='XENIX 8086 relocatable or 80286 small model' mime='application/octet-stream' ext=''/>
+			<match bytes='80 00 10 01' name='AmigaOS outline tag' mime='application/octet-stream' ext=''/>
+			<match bytes='80 00' name='lif file' mime='application/octet-stream' ext=''/>
+			<match bytes='80' name='8086 relocatable (Microsoft)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='83'>
+			<match bytes='83 01' name='ECOFF alpha' mime='application/octet-stream' ext=''/>
+			<match bytes='83' name='DBase 3 data file with memo(s)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='84'>
+			<match bytes='84 19' name='Linux old jffs2 filesystem data little endian' mime='application/octet-stream' ext=''/>
+			<match bytes='84 01' name='MS Windows COFF Alpha object file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='85'>
+			<match bytes='85 19' name='Linux jffs2 filesystem data little endian' mime='application/octet-stream' ext=''/>
+			<match bytes='85 02' name='GPG encrypted data' mime='application/octet-stream' ext=''/>
+			<match bytes='85 01 07 00' name='ECOFF NetBSD/alpha binary' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='87'>
+			<match bytes='87 65' name='disk quotas file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='88'>
+			<match bytes='88 4F 50 53' name='Interleaf saved data' mime='application/octet-stream' ext=''/>
+			<match bytes='88 4E 4F 41 0D 0A 1A' name='NOA Nancy Codec Movie file' mime='application/octet-stream' ext=''/>
+			<match bytes='88 01' name='Alpha compressed COFF' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='89'>
+			<match bytes='89 BF 1E 83' name='Virtutech CRAFF' mime='application/octet-stream' ext=''/>
+			<match bytes='89 50 4E 47' name='PNG image data' mime='image/png' ext='png'/>
+			<match bytes='89 4C 5A 4F 00 0D 0A 1A 0A' name='lzop compressed data' mime='application/octet-stream' ext=''/>
+			<match bytes='89 48 44 46 0D 0A 1A' name='Hierarchical Data Format (version 5) data' mime='Hierarchical Data Format (version 5) data' ext=''/>
+			<match bytes='89 00 95 03 05 00 32 52 87 C4 40 E5 22' name='PGP sig' mime='application/octet-stream' ext=''/>
+			<match bytes='89 00 3F 03 05 00 33 9F 57 39 17 B6 69 34 05 25 41 9B 11 02' name='PGP sig' mime='application/octet-stream' ext=''/>
+			<match bytes='89 00 3F 03 05 00 33 9F 57 38 17 B6 69 34 05 25 41 9B 11 02' name='PGP sig' mime='application/octet-stream' ext=''/>
+			<match bytes='89 00 3F 03 05 00 33 9F 57 37 17 B6 69 34 05 25 41 9B 11 02' name='PGP sig' mime='application/octet-stream' ext=''/>
+			<match bytes='89 00 3F 03 05 00 33 9F 57 36 17 B6 69 34 05 25 41 9B 11 02' name='PGP sig' mime='application/octet-stream' ext=''/>
+			<match bytes='89 00 3F 03 05 00 33 9F 57 35 17 B6 69 34 05 25 41 9B 11 02' name='PGP sig' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='8A'>
+			<match bytes='8A 4D 4E 47' name='MNG video data' mime='video/x-mng' ext='mng'/>
+		</first>
+		<first byte='8B'>
+			<match bytes='8B 4A 4E 47' name='JNG video data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='8F'>
+			<match bytes='8F AF AC 8C' name='EPC archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='8F AF AC 84' name='PPMD archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='90'>
+			<match bytes='90 02' name='MS Windows COFF PA-RISC object file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='91'>
+			<match bytes='91 33 48 46' name='HAP archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='93'>
+			<match bytes='93 B9 06' name='Splint archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='95'>
+			<match bytes='95 04 12 DE' name='GNU message catalog (big endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='95 01' name='PGP key security ring' mime='text/PGP key security ring' ext=''/>
+			<match bytes='95 00' name='PGP key security ring' mime='text/PGP key security ring' ext=''/>
+		</first>
+		<first byte='98'>
+			<match bytes='98 01 40 00' name='OpenEXR image data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='99'>
+			<match bytes='99 01' name='GPG key public ring' mime='text/GnuPG key public ring' ext=''/>
+			<match bytes='99 00' name='PGP key public ring' mime='text/PGP key public ring' ext=''/>
+		</first>
+		<first byte='9E'>
+			<match bytes='9E 00 00' name='DitPack archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='A3'>
+			<match bytes='A3 86 01 00' name='Linux-8086 object file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='AA'>
+			<match bytes='AA D5 AA D5 AA D5 AA D5' name='Apple II image with orange background' mime='application/octet-stream' ext=''/>
+			<match bytes='AA AA AA AA' name='5View capture file' mime='application/octet-stream' ext=''/>
+			<match bytes='AA AA' name='SoftQuad DESC or font file binary' mime='application/octet-stream' ext=''/>
+			<match bytes='AA 40 5F 77 1F E5 82 0D' name='PAQ archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='AD'>
+			<match bytes='AD 36 22' name='AMGC archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='B0'>
+			<match bytes='B0 00 30 00' name='VMS VAX executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='B8'>
+			<match bytes='B8 C0 07 8E D8 B8 00 90' name='Linux' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='BC'>
+			<match bytes='BC 40' name='Sky archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='BE'>
+			<match bytes='BE EF 41 42 43 44 45 46 47 48' name='HP LaserJet 1000 series downloadable firmware   ' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='C0'>
+			<match bytes='C0 48 52 42' name='Harbour HRB file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='C2'>
+			<match bytes='C2 A8 4D 50 C2 A8' name='KBoom archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='C7'>
+			<match bytes='C7 71' name='byte-swapped cpio archive' mime='application/x-cpio	swapped' ext=''/>
+		</first>
+		<first byte='C9'>
+			<match bytes='C9 C4' name='ID tags data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CB'>
+			<match bytes='CB 1D 42 6F 6F 6D E6 FF 03 01' name='Boom or linuxdoom demo' mime='application/octet-stream' ext=''/>
+			<match bytes='CB 05' name='huf output' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CC'>
+			<match bytes='CC 00 00 00' name='386 compact demand paged pure executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CF'>
+			<match bytes='CF AD 12 FE' name='Microsoft Outlook Express DBX File' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='D0'>
+			<match bytes='D0 CF 11 E0 A1 B1 1A E1 41 41 46 42 0D 00 4F 4D 06 0E 2B 34 01 01 01 FF' name='AAF legacy file using MS Structured Storage' mime='application/octet-stream' ext=''/>
+			<match bytes='D0 CF 11 E0 A1 B1 1A E1 01 02 01 0D 00 02 00 00 06 0E 2B 34 03 02 01 01' name='AAF file using MS Structured Storage' mime='application/octet-stream' ext=''/>
+			<match bytes='D0 CF 11 E0 A1 B1 1A E1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3E 00 03 00 FE FF' name='Microsoft Installer' mime='application/octet-stream' ext=''/>
+			<match bytes='D0 CF 11 E0 A1 B1 1A E1' name='Microsoft Office Document' mime='application/msword' ext='doc'/>
+		</first>
+		<first byte='D5'>
+			<match bytes='D5 AA D5 AA D5 AA D5 AA' name='Apple II image with blue background' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='D7'>
+			<match bytes='D7 CD C6 9A' name='ms-windows metafont .wmf' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='DA'>
+			<match bytes='DA FA' name='Logitech Compress archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='DB'>
+			<match bytes='DB A5 2D 00 00 00' name='Microsoft Office Document' mime='application/msword' ext='doc'/>
+		</first>
+		<first byte='DD'>
+			<match bytes='DD 73 66 73' name='Unicode text, UTF-8-EBCDIC' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='DE'>
+			<match bytes='DE 12 04 95' name='GNU message catalog (little endian)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='E0'>
+			<match bytes='E0 07' name='amd 29k coff archive' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='EF'>
+			<match bytes='EF BB BF' name='Unicode text, UTF-8' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='F0'>
+			<match bytes='F0 7D 00 00' name='Microsoft Visual C library' mime='application/octet-stream' ext=''/>
+			<match bytes='F0 3D 00 00' name='Microsoft Visual C library' mime='application/octet-stream' ext=''/>
+			<match bytes='F0 0D 00 00' name='Microsoft Visual C library' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='F1'>
+			<match bytes='F1 00 40 BB' name='CMU window manager raster image data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='F6'>
+			<match bytes='F6 F6 F6 F6' name='PC formatted floppy with no filesystem' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='F7'>
+			<match bytes='F7 CA' name='TeX virtual font data' mime='application/octet-stream' ext=''/>
+			<match bytes='F7 83' name='TeX generic font data' mime='application/octet-stream' ext=''/>
+			<match bytes='F7 59' name='TeX packed font data' mime='application/octet-stream' ext=''/>
+			<match bytes='F7 02' name='TeX DVI file' mime='application/x-dvi' ext=''/>
+		</first>
+		<first byte='FA'>
+			<match bytes='FA FA FA FA' name='MIT scheme (library?)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='FE'>
+			<match bytes='FE FF 00 00' name='Unicode text, UTF-32, big-endian' mime='application/octet-stream' ext=''/>
+			<match bytes='FE FF' name='Unicode text, UTF-16, big-endian' mime='application/octet-stream' ext=''/>
+			<match bytes='FE 62 69 6E' name='MySQL replication log' mime='application/octet-stream' ext=''/>
+			<match bytes='FE 37 00 23' name='Microsoft Office Document' mime='application/msword' ext='doc'/>
+		</first>
+		<first byte='FF'>
+			<match bytes='FF FF FF FF 14 00 00 00' name='OS/2 INI' mime='application/octet-stream' ext=''/>
+			<match bytes='FF FF 7F' name='ddis/ddif' mime='application/octet-stream' ext=''/>
+			<match bytes='FF FF 7E' name='ddis/dtif table data' mime='application/octet-stream' ext=''/>
+			<match bytes='FF FF 7C' name='ddis/dots archive' mime='application/octet-stream' ext=''/>
+			<match bytes='FF FE 00 00' name='Unicode text, UTF-32, little-endian' mime='application/octet-stream' ext=''/>
+			<match bytes='FF FE' name='Unicode text, UTF-16, little-endian' mime='application/octet-stream' ext=''/>
+			<match bytes='FF D8 FF' name='JPEG image data' mime='image/jpeg' ext='jpg'/>
+			<match bytes='FF 6D' name='very old PDP-11 archive' mime='application/octet-stream' ext=''/>
+			<match bytes='FF 65' name='old PDP-11 archive' mime='application/octet-stream' ext=''/>
+			<match bytes='FF 57 50 43 10 00 00 00 12 0A 01 01 00 00 00 00' name='(WP) loadable text' mime='application/octet-stream' ext=''/>
+			<match bytes='FF 42 53 47' name='BSN archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='FF 1F' name='compacted data' mime='application/octet-stream' ext=''/>
+			<match bytes='FF 03 00 FF 01 00 30 10 E8' name='MSVC .res' mime='application/octet-stream' ext=''/>
+			<match bytes='FF 03 00 FF 01 00 10 10 E8' name='MSVC .res' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='1'>
+		<first byte='00'>
+			<match bytes='00 AE 07' name='BSN archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 AE 03' name='BSN archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='00 AE 02' name='BSN archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='09'>
+			<match bytes='09 60' name='old-fs dump file (16-bit, assuming PDP-11 endianness)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='40'>
+			<match bytes='40 0B F9 05 00 09 00 02 00' name='DOS floppy 1440k, mkdosfs' mime='application/octet-stream' ext=''/>
+			<match bytes='40 0B F0 09 00 12 00 02 00' name='DOS floppy 1440k' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='47'>
+			<match bytes='47 54 48' name='Gather archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='49'>
+			<match bytes='49 6E 74 65 72 6E 65 74 53 68 6F 72 74 63 75 74' name='MS Windows 95 Internet shortcut text' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 55 47 49 43 49 41 4E 2F 53 4F 46 54 45 59 45 53' name='Mugician Module sound file' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='50'>
+			<match bytes='50 4E 47' name='PNG image data, CORRUPTED' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='52'>
+			<match bytes='52 65 73 65 61 72 63 68 2C 20 49 6E 63 09 67 72 6F 75 70 20 33 20 66 61 78 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='52 44 43 2D 6D 65 67' name='MegaDots ' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='53'>
+			<match bytes='53 54 45 50 41 4E 59 55 4B 20 41 52 53 2D 53 66 78 20 61 72 63 68 69 76 65 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='57'>
+			<match bytes='57 50 43' name='(Corel/WP)' mime='application/octet-stream' ext=''/>
+			<match bytes='57 41 44' name='DOOM data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='5B'>
+			<match bytes='5B 6C 69 63 71 5D' name='LICQ configuration file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6D'>
+			<match bytes='6D 6B 78' name='Compiled XKB Keymap: lsb' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='A0'>
+			<match bytes='A0 05 F9 05 00 09 00 02 00' name='Atari-ST floppy 720k' mime='application/octet-stream' ext=''/>
+			<match bytes='A0 05 F9 03 00 09 00 02 00' name='DOS floppy 720k' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for MS-DOS' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='D0'>
+			<match bytes='D0 02 F8 05 00 09 00 01 00' name='Atari-ST floppy 360k' mime='application/octet-stream' ext=''/>
+			<match bytes='D0 02 F0 03 00 09 00 01 00' name='DOS floppy 360k' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='FF'>
+			<match bytes='FF 42 53 47' name='BSN archive data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='2'>
+		<first byte='00'>
+			<match bytes='00 12' name='TeX font metric data' mime='application/x-tex-tfm' ext=''/>
+			<match bytes='00 11' name='TeX font metric data' mime='application/x-tex-tfm' ext=''/>
+		</first>
+		<first byte='20'>
+			<match bytes='20 20 20 20 20 20 20 20 20 20 20 4D 4C 34 44 20 27 39 32' name='Smith Corona PWP' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2D'>
+			<match bytes='2D 73 77 31 2D' name='Swag archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 70 6D 73 2D' name='PMarc SFX archive (CP/M, DOS)' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 70 6D 32 2D' name='PMarc archive data [pm2]' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 70 6D 31 2D' name='PMarc archive data [pm1]' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 70 6D 30 2D' name='PMarc archive data [pm0]' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 6C 7A 73 2D' name='LHa/LZS archive data [lzs]' mime='application/x-lha	lzs' ext=''/>
+			<match bytes='2D 6C 7A 35 2D' name='LHarc 1.x archive data [lz5]' mime='application/x-lharc	lz5' ext=''/>
+			<match bytes='2D 6C 7A 34 2D' name='LHarc 1.x archive data [lz4]' mime='application/x-lharc	lz4' ext=''/>
+			<match bytes='2D 6C 7A' name='LZS archive data ' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 6C 68 64 2D' name='LHa 2.x? archive data [lhd]' mime='application/x-lha	lhd' ext=''/>
+			<match bytes='2D 6C 68 37 2D' name='LHa (2.x)/LHark archive data [lh7]' mime='application/x-lha	lh7' ext=''/>
+			<match bytes='2D 6C 68 36 2D' name='LHa (2.x) archive data [lh6]' mime='application/x-lha	lh6' ext=''/>
+			<match bytes='2D 6C 68 35 2D' name='LHa (2.x) archive data [lh5]' mime='application/x-lha	lh5' ext=''/>
+			<match bytes='2D 6C 68 34 2D' name='LHa (2.x) archive data [lh4]' mime='application/x-lha	lh4' ext=''/>
+			<match bytes='2D 6C 68 33 2D' name='LHa 2.x? archive data [lh3]' mime='application/x-lha	lh3' ext=''/>
+			<match bytes='2D 6C 68 32 2D' name='LHa 2.x? archive data [lh2]' mime='application/x-lha	lh2' ext=''/>
+			<match bytes='2D 6C 68 31 2D' name='LHarc 1.x/ARX archive data [lh1]' mime='application/x-lharc	lh1' ext=''/>
+			<match bytes='2D 6C 68 30 2D' name='LHarc 1.x/ARX archive data [lh0]' mime='application/x-lharc	lh0' ext=''/>
+			<match bytes='2D 6C 68 20 2D' name='LHa 2.x? archive data [lh ]' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 6C 5A' name='PUT archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 61 68' name='MAR archive data' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 61 66 78 2D' name='AFX compressed file data' mime='application/octet-stream' ext=''/>
+			<match bytes='2D 4C 48 31 2D' name='LHA archive (c64)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='43'>
+			<match bytes='43 43 53 44 33 5A' name='PDS (CCSD) image data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='45'>
+			<match bytes='45 59 57 52' name='AmigaWriter file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='47'>
+			<match bytes='47 46 41 2D 42 41 53 49 43 33' name='GFA-BASIC 3 data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='49'>
+			<match bytes='49 49 58 50 52 61' name='Intel Quark Express Document (Korean)' mime='application/octet-stream' ext=''/>
+			<match bytes='49 49 58 50 52 33' name='Intel Quark Express Document (English)' mime='application/octet-stream' ext=''/>
+			<match bytes='49 43 45' name='ICE authority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4C'>
+			<match bytes='4C 49 4C 4F' name='Linux/i386 LILO boot/chain loader' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 4D 58 50 52 61' name='Motorola Quark Express Document (Korean)' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 4D 58 50 52 33' name='Motorola Quark Express Document (English)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4E'>
+			<match bytes='4E 4A 50 4C 31 49' name='PDS (JPL) image data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='73'>
+			<match bytes='73 74 72 65 61 6D 74 79 70 65 64' name='NeXT/Apple typedstream data, little endian' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='74'>
+			<match bytes='74 79 70 65 64 73 74 72 65 61 6D' name='NeXT/Apple typedstream data, big endian' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='3'>
+		<first byte='0D'>
+			<match bytes='0D 0A 56 65 72 73 69 6F 6E 3A 56 69 76 6F' name='Vivo video data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='26'>
+			<match bytes='26 05 50 84' name='PCP archive' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='3C'>
+			<match bytes='3C 67 6D 72 3A 57 6F 72 6B 62 6F 6F 6B' name='Gnumeric spreadsheet' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4C'>
+			<match bytes='4C 6F 63 6B 53 74 72 65 61 6D' name='LockStream Embedded file (mostly MP3 on old Nokia phones)' mime='application/octet-stream' ext=''/>
+			<match bytes='4C 48 35' name='SAR archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4F'>
+			<match bytes='4F 63 74 53 71 75' name='Squash archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='53'>
+			<match bytes='53 70 72 65 61 64 73 68 65 65 74' name='sc spreadsheet file' mime='application/x-sc' ext=''/>
+		</first>
+		<first byte='57'>
+			<match bytes='57 49 4E 49 4D 41 47 45' name='WinImage archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='70'>
+			<match bytes='70 6D 69 65 63 6F 6E 66 2D 70 6D 69 65' name='PCP pmie config' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='FF'>
+			<match bytes='FF 42 53 47' name='BSN archive data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='4'>
+		<first byte='00'>
+			<match bytes='00 00 00 10' name='GLS_BINARY_MSB_FIRST' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 00 07' name='XWD X Window Dump image data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='10'>
+			<match bytes='10 00 00 00' name='GLS_BINARY_LSB_FIRST' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='41'>
+			<match bytes='41 7E 09 4D 41 74 68 65 6D 61 74 69 63 61 20 2E 6D 6C 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='47'>
+			<match bytes='47 54 4B 74 61 6C 6F 67 20 63 61 74 61 6C 6F 67 20 64 61 74 61 2C' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4A'>
+			<match bytes='4A 65 74 20 44 42 09 4D 69 63 72 6F 73 6F 66 74 20 41 63 63 65 73 73 20 44 61 74 61 62 61 73 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4F'>
+			<match bytes='4F 3D 3D 3D 3D' name='AppleWorks word processor data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='52'>
+			<match bytes='52 65 73 65 61 72 63 68 2C' name='Digifax-G3-File' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='66'>
+			<match bytes='66 74 79 70 71 74 20 20' name='Apple QuickTime (.MOV/QT)' mime='video/quicktime' ext='mov'/>
+			<match bytes='66 74 79 70 6E 64 78 73' name='H.264/MPEG-4 AVC (.MP4) Nero Standard Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 78 70' name='H.264/MPEG-4 AVC (.MP4) Nero Portable Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 78 6D' name='H.264/MPEG-4 AVC (.MP4) Nero Mobile Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 78 68' name='H.264/MPEG-4 AVC (.MP4) Nero HDTV Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 78 63' name='H.264/MPEG-4 AVC (.MP4) Nero Cinema Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 73 73' name='MPEG-4 (.MP4) Nero Standard Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 73 70' name='MPEG-4 (.MP4) Nero Portable Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 73 6D' name='MPEG-4 (.MP4) Nero Mobile Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 73 68' name='MPEG-4 (.MP4) Nero HDTV Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 73 63' name='MPEG-4 (.MP4) Nero Cinema Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6E 64 61 73' name='MP4 v2 [ISO 14496-14] Nero Digital AAC Audio' mime='audio/mp4' ext='aac'/>
+			<match bytes='66 74 79 70 6D 73 6E 76' name='MPEG-4 (.MP4) for SonyPSP' mime='audio/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6D 71 74' name='Sony / Mobile QuickTime (.MQV)' mime='video/quicktime' ext='mqv'/>
+			<match bytes='66 74 79 70 6D 70 70 69' name='Photo Player, MAF [ISO/IEC 23000-3]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6D 70 37 31' name='MP4 w/ MPEG-7 Metadata [per ISO 14496-12]' mime='application/xml' ext='xml'/>
+			<match bytes='66 74 79 70 6D 70 34 32' name='MP4 v2 [ISO 14496-14]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6D 70 34 31' name='MP4 v1 [ISO 14496-1:ch13]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6D 70 32 31' name='MPEG-21 [ISO/IEC 21000-9]' mime='application/xml' ext='xml'/>
+			<match bytes='66 74 79 70 6D 6D 70 34' name='MPEG-4/3GPP Mobile Profile (.MP4 / .3GP) (for NTT)' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 6D 6A 70 32' name='Motion JPEG 2000 [ISO 15444-3] General Profile' mime='video/mj2' ext='mj2'/>
+			<match bytes='66 74 79 70 6D 6A 32 73' name='Motion JPEG 2000 [ISO 15444-3] Simple Profile' mime='video/mj2' ext='mj2'/>
+			<match bytes='66 74 79 70 6D 34 76 20' name='Apple iTunes Video (.M4V) Video' mime='video/mp4' ext='m4v'/>
+			<match bytes='66 74 79 70 6D 34 70 20' name='Apple iTunes AAC-LC (.M4P) AES Protected Audio' mime='audio/mp4' ext='m4p'/>
+			<match bytes='66 74 79 70 6D 34 62 20' name='Apple iTunes AAC-LC (.M4B) Audio Book' mime='audio/mp4' ext='m4b'/>
+			<match bytes='66 74 79 70 6D 34 61 20' name='Apple iTunes AAC-LC (.M4A) Audio' mime='audio/mp4' ext='m4a'/>
+			<match bytes='66 74 79 70 6B 64 64 69' name='3GPP2 EZmovie for KDDI 3G Cellphones' mime='video/3gpp2' ext='3gp'/>
+			<match bytes='66 74 79 70 6A 70 78' name='JPEG 2000 w/ extensions (.JPX) [ISO 15444-2]' mime='image/jpx' ext='jpx'/>
+			<match bytes='66 74 79 70 6A 70 6D' name='JPEG 2000 Compound Image (.JPM) [ISO 15444-6]' mime='image/jpm' ext='jpm'/>
+			<match bytes='66 74 79 70 6A 70 32 30' name='Unknown, from GPAC samples (prob non-existent)' mime='image/x-jp20' ext='jp20'/>
+			<match bytes='66 74 79 70 6A 70 32' name='JPEG 2000 Image (.JP2) [ISO 15444-1 ?]' mime='image/jp2' ext='jp2'/>
+			<match bytes='66 74 79 70 69 73 6F 6D' name='MP4  Base Media v1 [IS0 14496-12:2003]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 69 73 6F 32' name='MP4 Base Media v2 [ISO 14496-12:2005]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 61 76 63 31' name='MP4 Base w/ AVC ext [ISO 14496-12:2005]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 51 54 20 20' name='Apple QuickTime (.MOV/QT)' mime='video/quicktime' ext='mov'/>
+			<match bytes='66 74 79 70 4E 44 58 53' name='H.264/MPEG-4 AVC (.MP4) Nero Standard Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 58 50' name='H.264/MPEG-4 AVC (.MP4) Nero Portable Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 58 4D' name='H.264/MPEG-4 AVC (.MP4) Nero Mobile Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 58 48' name='H.264/MPEG-4 AVC (.MP4) Nero HDTV Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 58 43' name='H.264/MPEG-4 AVC (.MP4) Nero Cinema Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 53 53' name='MPEG-4 (.MP4) Nero Standard Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 53 50' name='MPEG-4 (.MP4) Nero Portable Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 53 4D' name='MPEG-4 (.MP4) Nero Mobile Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 53 48' name='MPEG-4 (.MP4) Nero HDTV Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 53 43' name='MPEG-4 (.MP4) Nero Cinema Profile' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4E 44 41 53' name='MP4 v2 [ISO 14496-14] Nero Digital AAC Audio' mime='audio/mp4' ext='aac'/>
+			<match bytes='66 74 79 70 4D 53 4E 56' name='MPEG-4 (.MP4) for SonyPSP' mime='audio/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4D 51 54' name='Sony / Mobile QuickTime (.MQV)' mime='video/quicktime' ext='mqv'/>
+			<match bytes='66 74 79 70 4D 50 50 49' name='Photo Player, MAF [ISO/IEC 23000-3]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4D 50 37 31' name='MP4 w/ MPEG-7 Metadata [per ISO 14496-12]' mime='application/xml' ext='xml'/>
+			<match bytes='66 74 79 70 4D 50 34 32' name='MP4 v2 [ISO 14496-14]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4D 50 34 31' name='MP4 v1 [ISO 14496-1:ch13]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4D 50 32 31' name='MPEG-21 [ISO/IEC 21000-9]' mime='application/xml' ext='xml'/>
+			<match bytes='66 74 79 70 4D 4D 50 34' name='MPEG-4/3GPP Mobile Profile (.MP4 / .3GP) (for NTT)' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 4D 4A 50 32' name='Motion JPEG 2000 [ISO 15444-3] General Profile' mime='video/mj2' ext='mj2'/>
+			<match bytes='66 74 79 70 4D 4A 32 53' name='Motion JPEG 2000 [ISO 15444-3] Simple Profile' mime='video/mj2' ext='mj2'/>
+			<match bytes='66 74 79 70 4D 34 56 20' name='Apple iTunes Video (.M4V) Video' mime='video/mp4' ext='m4v'/>
+			<match bytes='66 74 79 70 4D 34 50 20' name='Apple iTunes AAC-LC (.M4P) AES Protected Audio' mime='audio/mp4' ext='m4p'/>
+			<match bytes='66 74 79 70 4D 34 42 20' name='Apple iTunes AAC-LC (.M4B) Audio Book' mime='audio/mp4' ext='m4b'/>
+			<match bytes='66 74 79 70 4D 34 41 20' name='Apple iTunes AAC-LC (.M4A) Audio' mime='audio/mp4' ext='m4a'/>
+			<match bytes='66 74 79 70 4B 44 44 49' name='3GPP2 EZmovie for KDDI 3G Cellphones' mime='video/3gpp2' ext='3gp'/>
+			<match bytes='66 74 79 70 4A 50 58' name='JPEG 2000 w/ extensions (.JPX) [ISO 15444-2]' mime='image/jpx' ext='jpx'/>
+			<match bytes='66 74 79 70 4A 50 4D' name='JPEG 2000 Compound Image (.JPM) [ISO 15444-6]' mime='image/jpm' ext='jpm'/>
+			<match bytes='66 74 79 70 4A 50 32 30' name='Unknown, from GPAC samples (prob non-existent)' mime='image/x-jp20' ext='jp20'/>
+			<match bytes='66 74 79 70 4A 50 32' name='JPEG 2000 Image (.JP2) [ISO 15444-1 ?]' mime='image/jp2' ext='jp2'/>
+			<match bytes='66 74 79 70 49 53 4F 4D' name='MP4  Base Media v1 [IS0 14496-12:2003]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 49 53 4F 32' name='MP4 Base Media v2 [ISO 14496-12:2005]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 41 56 43 31' name='MP4 Base w/ AVC ext [ISO 14496-12:2005]' mime='video/mp4' ext='mp4'/>
+			<match bytes='66 74 79 70 33 67 73 37' name='3GPP Media (.3GP) Release 7 Streaming Servers' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 73 36' name='3GPP Media (.3GP) Release 6 Streaming Servers' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 70 36' name='3GPP Media (.3GP) Release 6 Basic Profile' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 70 35' name='3GPP Media (.3GP) Release 5' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 70 34' name='3GPP Media (.3GP) Release 4' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 70 33' name='3GPP Media (.3GP) Release 3 ? (non-existent)' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 70 32' name='3GPP Media (.3GP) Release 2 ? (non-existent)' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 70 31' name='3GPP Media (.3GP) Release 1 ? (non-existent)' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 67 36' name='3GPP Release 6 General Profile' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 65 37' name='3GPP (.3GP) Release 7 MBMS Extended Presentations' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 67 32 61' name='3GPP2 Media (.3G2)' mime='video/3gpp2' ext='3g2'/>
+			<match bytes='66 74 79 70 33 47 53 37' name='3GPP Media (.3GP) Release 7 Streaming Servers' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 53 36' name='3GPP Media (.3GP) Release 6 Streaming Servers' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 50 36' name='3GPP Media (.3GP) Release 6 Basic Profile' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 50 35' name='3GPP Media (.3GP) Release 5' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 50 34' name='3GPP Media (.3GP) Release 4' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 50 33' name='3GPP Media (.3GP) Release 3 ? (non-existent)' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 50 32' name='3GPP Media (.3GP) Release 2 ? (non-existent)' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 50 31' name='3GPP Media (.3GP) Release 1 ? (non-existent)' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 47 36' name='3GPP Release 6 General Profile' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 45 37' name='3GPP (.3GP) Release 7 MBMS Extended Presentations' mime='video/3gpp' ext='3gp'/>
+			<match bytes='66 74 79 70 33 47 32 41' name='3GPP2 Media (.3G2)' mime='video/3gpp2' ext='3g2'/>
+			<match bytes='66 74 79 70' name='ISO Media' mime='application/octet-stream' ext=''/>
+			<match bytes='66 72 65 65' name='Apple QuickTime movie (modified)' mime='video/quicktime' ext='mov'/>
+		</first>
+		<first byte='67'>
+			<match bytes='67 74 6B 74 61 6C 6F 67' name='GNOME Catalogue (gtktalog)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='69'>
+			<match bytes='69 64 73 63' name='Apple QuickTime image (fast start)' mime='image/x-quicktime' ext='mov'/>
+			<match bytes='69 64 61 74' name='Apple QuickTime image (unoptimized)' mime='image/x-quicktime' ext='mov'/>
+		</first>
+		<first byte='6D'>
+			<match bytes='6D 6F 6F 76' name='Apple QuickTime' mime='video/quicktime' ext='mov'/>
+			<match bytes='6D 64 61 74' name='Apple QuickTime movie (unoptimized)' mime='video/quicktime' ext='mov'/>
+		</first>
+		<first byte='70'>
+			<match bytes='70 77 56 31' name='Cracklib password index, big endian (&quot;64-bit&quot;)' mime='application/octet-stream' ext=''/>
+			<match bytes='70 72 6F 66' name='CLIPPER instruction profile' mime='application/octet-stream' ext=''/>
+			<match bytes='70 69 70 65' name='CLIPPER instruction trace' mime='application/octet-stream' ext=''/>
+			<match bytes='70 67 73 63 72 69 70 74 76 65 72' name='IslandWrite document' mime='application/octet-stream' ext=''/>
+			<match bytes='70 63 6B 67' name='Apple QuickTime compressed archive' mime='application/x-quicktime' ext='mov'/>
+		</first>
+		<first byte='73'>
+			<match bytes='73 6B 69 70' name='Apple QuickTime movie (modified)' mime='video/quicktime' ext='mov'/>
+		</first>
+		<first byte='77'>
+			<match bytes='77 69 64 65' name='Apple QuickTime movie (unoptimized)' mime='video/quicktime' ext='mov'/>
+		</first>
+		<first byte='88'>
+			<match bytes='88 F0 27' name='MS Compress archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='5'>
+		<first byte='2D'>
+			<match bytes='2D 70 63 31 2D' name='PopCom compressed executable (CP/M)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='49'>
+			<match bytes='49 49 20 2D 20 54 48 45 09 53 69 64 6D 6F 6E 20 32 2E 30 20 4D 6F 64 75 6C 65 20 73 6F 75 6E 64 20 66 69 6C 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='58'>
+			<match bytes='58 DF FF FF' name='Ultrix core file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='6'>
+		<first byte='01'>
+			<match bytes='01 07' name='unicos (cray) executable' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='25'>
+			<match bytes='25 21 50 53 2D 41 64 6F 62 65 46 6F 6E 74 2D 31 2E' name='PostScript Type 1 font program data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='7'>
+		<first byte='00'>
+			<match bytes='00 56 49 44' name='DOS code page font data (from Linux?)' mime='application/octet-stream' ext=''/>
+			<match bytes='00 45 47 41' name='DOS code page font data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='2A'>
+			<match bytes='2A 2A 41 43 45 2A 2A' name='ACE archive data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='31'>
+			<match bytes='31 38 20 21 4E 54 49 54 4C 45' name='XPLOR ASCII Electron Density Map' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='EF'>
+			<match bytes='EF 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00' name='FreeBSD/i386 a.out core file' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='8'>
+		<first byte='31'>
+			<match bytes='31 36 43 4E' name='16-channel Taketracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='33'>
+			<match bytes='33 32 43 4E' name='32-channel Taketracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='34'>
+			<match bytes='34 43 48 4E' name='4-channel Fasttracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='36'>
+			<match bytes='36 43 48 4E' name='6-channel Fasttracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='38'>
+			<match bytes='38 43 48 4E' name='8-channel Fasttracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='43'>
+			<match bytes='43 44 38 31' name='8-channel Octalyser module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='46'>
+			<match bytes='46 4C 54 38' name='8-channel Startracker module sound data' mime='audio/x-mod' ext='mod'/>
+			<match bytes='46 4C 54 34' name='4-channel Startracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 41 50 20 28' name='Old EZD Electron Density Map' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 2E 4B 2E' name='4-channel Protracker module sound data' mime='audio/x-mod' ext='mod'/>
+			<match bytes='4D 21 4B 21' name='4-channel Protracker module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='4F'>
+			<match bytes='4F 4B 54 41' name='8-channel Oktalyzer module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='54'>
+			<match bytes='54 68 69 73 20 69 73 20 61 20 73 68 65 6C 6C 20 61 72 63 68 69 76 65 09 73 68 65 6C 6C 20 61 72 63 68 69 76 65 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='9'>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='62'>
+			<match bytes='62 65 20 63 6F 6E 76 65 72 74 65 64 20 77 69 74 68 20 42 69 6E 48 65 78 09 42 69 6E 48 65 78 20 62 69 6E 61 72 79 20 74 65 78 74' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='10'>
+		<first byte='00'>
+			<match bytes='00 06 15 61' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+			<match bytes='00 05 31 62' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+			<match bytes='00 04 22 53' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+			<match bytes='00 04 09 88' name='Berkeley DB ' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='44'>
+			<match bytes='44 49 43 4D' name='DICOM medical imaging data' mime='application/dicom' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='53'>
+			<match bytes='53 22 04 00' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='61'>
+			<match bytes='61 15 06 00' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='62'>
+			<match bytes='62 31 05 00' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='88'>
+			<match bytes='88 09 04 00' name='Berkeley DB' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='11'>
+		<first byte='44'>
+			<match bytes='44 72 61 77 46 69 6C 65' name='IslandDraw document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='12'>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='59'>
+			<match bytes='59 43' name='YAC archive data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='13'>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='14'>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='15'>
+		<first byte='4D'>
+			<match bytes='4D 49 54 2D 4D 41 47 49 43 2D 43 4F 4F 4B 49 45 2D 31' name='X11 Xauthority data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='76'>
+			<match bytes='76 65 72 73 69 6F 6E 3D 53 50 45 43 6A 62 62' name='SPECjbb' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='16'>
+		<first byte='45'>
+			<match bytes='45 78 63 65 6C 20 35 2E 30 20 57 6F 72 6B 73 68 65 65 74 09 25 73' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='47'>
+			<match bytes='47 50 41 54' name='GIMP pattern data' mime='application/octet-stream' ext=''/>
+			<match bytes='47 49 4D 50' name='GIMP brush data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 69 63 72 6F 73 6F 66 74 20 57 6F 72 64 20 36 20 53 70 61 6E 69 73 68 20 4D 69 63 72 6F 73 6F 66 74 20 57 6F 72 64 20 36 20 64 6F 63 75 6D 65 6E 74 20 64 61 74 61' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='4D 41 50 20' name='CCP4 Electron Density Map' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='57'>
+			<match bytes='57 6F 72 64 20 36 2E 30 20 44 6F 63 75 6D 65 6E 74 09 25 73' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='64'>
+			<match bytes='64 69 20 6C 61 76 6F 72 6F 20 4D 69 63 72 6F 73 6F 66 74 20 45 78 63 65 09 25 73' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='17'>
+		<first byte='42'>
+			<match bytes='42 4D 4F 44 32 53 54 4D' name='Screamtracker 2 module sound data' mime='audio/x-mod' ext='mod'/>
+		</first>
+		<first byte='62'>
+			<match bytes='62 79 20 66 6C 65 78 09 43 20 70 72 6F 67 72 61 6D 20 74 65 78 74 20 28 66 72 6F 6D 20 66 6C 65 78 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='19'>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for MS-DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='20'>
+		<first byte='00'>
+			<match bytes='00 00 60 0C' name='dump format, Convex Storage Manager by-reference dump' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 60 0B' name='dump format, 4.2 or 4.3 BSD (IDC compatible)' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 60 0A' name='new-fs dump file (big endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='00 00 60 09' name='old-fs dump file (big endian)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='09'>
+			<match bytes='09 60 00 00' name='old-fs dump file (little endian)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='0A'>
+			<match bytes='0A 60 00 00' name='new-fs dump file (little endian)' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='32'>
+			<match bytes='32 30 33 20 20 20 20 20 20 20 20 4C 69 6E 75 78 64 6F 6F 6D 20 73 61 76 65' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='22'>
+		<first byte='41'>
+			<match bytes='41 64 76 61 6E 63 65 64' name='TI-XX Graphing Calculator (FLASH)' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='24'>
+		<first byte='30'>
+			<match bytes='30 30 31 09 4C 56 4D 32 20 28 4C 69 6E 75 78 20 4C 6F 67 69 63 61 6C 20 56 6F 6C 75 6D 65 20 4D 61 6E 61 67 65 72 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for MS-DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='30'>
+		<first byte='61'>
+			<match bytes='61 63 73 70 4D 53 46 54' name='Microsoft ICM Color Profile' mime='application/octet-stream' ext=''/>
+			<match bytes='61 63 73 70' name='Kodak Color Management System, ICC Profile' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='32'>
+		<first byte='44'>
+			<match bytes='44 4F 53 46 4F 4E 54' name='DOSFONT2 encrypted font data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='53'>
+			<match bytes='53 57 41 50 53 50 41 43 45 32' name='Linux/i386 swap file (new style)' mime='application/octet-stream' ext=''/>
+			<match bytes='53 57 41 50 2D 53 50 41 43 45' name='Linux/i386 swap file' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='35'>
+		<first byte='53'>
+			<match bytes='53 46 44 55 5F 4C 41 42 45 4C' name='VICAR label file' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='36'>
+		<first byte='50'>
+			<match bytes='50 54 4D 46' name='Poly Tracker PTM Module' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='43'>
+		<first byte='79'>
+			<match bytes='79 79 70 72 65 76 69 6F 75 73' name='C program text (from lex)' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='44'>
+		<first byte='E5'>
+			<match bytes='E5 14' name='Bio-Rad .PIC Image File' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='48'>
+		<first byte='42'>
+			<match bytes='42 56 6F 6B 42 44 49 43' name='BDicty PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='42 4F 4F 4B 4D 4F 42 49' name='Mobipocket E-book' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='44'>
+			<match bytes='44 61 74 61 54 6C 50 74' name='TealPaint PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='44 61 74 61 54 6C 4D 6C' name='TealMeal PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='44 61 74 61 53 70 72 64' name='QuickSheet PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='44 61 74 61 50 6C 6B 72' name='Plucker PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='44 42 39 39 44 42 4F 53' name='DB PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='44 41 54 41 4C 53 64 62' name='List PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='49'>
+			<match bytes='49 6E 66 6F 54 6C 49 66' name='TealInfo PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='49 6E 66 6F 49 4E 44 42' name='InfoView PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='49 4D 31 30' name='Imago Orpheus module sound data -' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4A'>
+			<match bytes='4A 66 44 62 4A 46 69 6C' name='JFile Pro PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='4A 66 44 62 4A 42 61 73' name='JFile PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='4D'>
+			<match bytes='4D 64 62 31 4D 64 62 31' name='MobileDB PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='50'>
+			<match bytes='50 6D 44 42 50 6D 44 42' name='HanDBase PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='50 4E 52 64 50 50 72 73' name='PeanutPress PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='53'>
+			<match bytes='53 4D 30 31 53 4D 65 6D' name='SuperMemo PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='54'>
+			<match bytes='54 6F 52 61 54 52 50 57' name='TomeRaider PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='54 6F 47 6F 54 6F 47 6F' name='iSilo PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='54 64 61 74 54 69 64 65' name='Tides PalmOS document' mime='application/octet-stream' ext=''/>
+			<match bytes='54 45 58 74' name='AportisDoc file' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='64'>
+			<match bytes='64 61 74 61 54 44 42 50' name='ThinkDB PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6C'>
+			<match bytes='6C 69 62 72' name='Palm OS dynamic library data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='70'>
+			<match bytes='70 74 63 68' name='Palm OS operating system patch data' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='76'>
+			<match bytes='76 49 4D 47 56 69 65 77' name='FireViewer/ImageViewer PalmOS document' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='7A'>
+			<match bytes='7A 54 58 54' name='A GutenPalm zTXT e-book' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='54'>
+		<first byte='19'>
+			<match bytes='19 54 01 19' name='Unix Fast File system [v2] (big-endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='19 01 54 19' name='Unix Fast File system [v2] (little-endian)' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='56'>
+		<first byte='CD'>
+			<match bytes='CD 21' name='COM executable for DOS' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='59'>
+		<first byte='20'>
+			<match bytes='20 42 69 62 54 65 58 2D 66 69 6C 65 7B 20 42 69 62 54 65 78 20 74 65 78 74 20 66 69 6C 65 20 28 77 69 74 68 20 66 75 6C 6C 20 68 65 61 64 65 72 29' name='' mime='application/octet-stream' ext=''/>
+			<match bytes='20 40 42 69 62 54 65 58 2D 73 74 79 6C 65 2D 66 69 6C 65 7B 20 20 20 42 69 62 54 65 58 20 73 74 79 6C 65 20 74 65 78 74 20 66 69 6C 65 20 28 77 69 74 68 20 66 75 6C 6C 20 68 65 61 64 65 72 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='62'>
+		<first byte='53'>
+			<match bytes='53 43 52 53' name='Scream Tracker Sample' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='66'>
+		<first byte='4D'>
+			<match bytes='4D 4D 58 00 00 00 00 00 00 00 00 00 00 00 00 00' name='MAR Area Detector Image' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='6D'>
+			<match bytes='6D 42 49 4E' name='MacBinary III data with surprising version number' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='70'>
+		<first byte='52'>
+			<match bytes='52 6F 52' name='AMUSIC Adlib Tracker' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='84'>
+		<first byte='53'>
+			<match bytes='53 41 53' name='SAS 7+' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='132'>
+		<first byte='50'>
+			<match bytes='50 43 44 5F 49 50 49' name='Kodak Photo CD image pack file' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='142'>
+		<first byte='11'>
+			<match bytes='11 01 00 00' name='Linux/i386 core file' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='170'>
+		<first byte='68'>
+			<match bytes='68 61 76 65 20 44 4F 53 20 76 65 72 73 69 6F 6E 09 44 52 2D 44 4F 53 20 65 78 65 63 75 74 61 62 6C 65 20 28 43 4F 4D 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='175'>
+		<first byte='75'>
+			<match bytes='75 73 74 61 72 20 20 00' name='GNU tar archive' mime='application/x-tar	gnu' ext=''/>
+			<match bytes='75 73 74 61 72 00' name='POSIX tar archive' mime='application/x-tar	posix' ext=''/>
+		</first>
+	</offset>
+	<offset at='256'>
+		<first byte='53'>
+			<match bytes='53 45 47 41' name='Sega MegaDrive/Genesis raw ROM dump' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='330'>
+		<first byte='52'>
+			<match bytes='52 00 6F 00 6F 00 74 00' name='Hangul (Korean) Word Processor File 2000' mime='application/x-hwp' ext=''/>
+		</first>
+	</offset>
+	<offset at='332'>
+		<first byte='48'>
+			<match bytes='48 64 72 53' name='Linux kernel' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='FF'>
+			<match bytes='FF FF FF FF 01' name='Claris clip art?' mime='application/octet-stream' ext=''/>
+			<match bytes='FF FF FF FF 00' name='Claris clip art?' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='512'>
+		<first byte='54'>
+			<match bytes='54 53' name='Apple Old Partition data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='536'>
+		<first byte='30'>
+			<match bytes='30 30 31 09 4C 56 4D 32 20 28 4C 69 6E 75 78 20 4C 6F 67 69 63 61 6C 20 56 6F 6C 75 6D 65 20 4D 61 6E 61 67 65 72 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='640'>
+		<first byte='45'>
+			<match bytes='45 41 4D 47' name='Super MagicDrive ROM dump' mime='application/octet-stream' ext=''/>
+			<match bytes='45 41 47 4E' name='Super MagicDrive ROM dump' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='1040'>
+		<first byte='68'>
+			<match bytes='68 24' name='Minix filesystem, version 2' mime='application/octet-stream' ext=''/>
+		</first>
+		<first byte='78'>
+			<match bytes='78 24' name='Minix filesystem, version 2, 30 char names' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='1048'>
+		<first byte='30'>
+			<match bytes='30 30 31 09 4C 56 4D 32 20 28 4C 69 6E 75 78 20 4C 6F 67 69 63 61 6C 20 56 6F 6C 75 6D 65 20 4D 61 6E 61 67 65 72 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='1062'>
+		<first byte='4D'>
+			<match bytes='4D 61 44 6F 4B 61 4E 39 36' name='XMS Adlib Module' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='1098'>
+		<first byte='4D'>
+			<match bytes='4D 53 57 6F 72 64 44 6F 63' name='Microsoft Word document data' mime='application/msword' ext='doc'/>
+		</first>
+	</offset>
+	<offset at='1100'>
+		<first byte='42'>
+			<match bytes='42 69 66 66 35' name='Microsoft Excel 5.0 Worksheet' mime='application/excel' ext='xls'/>
+		</first>
+	</offset>
+	<offset at='1105'>
+		<first byte='42'>
+			<match bytes='42 69 66 66 35' name='Microsoft Excel 5.0 Worksheet' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='1560'>
+		<first byte='30'>
+			<match bytes='30 30 31 09 4C 56 4D 32 20 28 4C 69 6E 75 78 20 4C 6F 67 69 63 61 6C 20 56 6F 6C 75 6D 65 20 4D 61 6E 61 67 65 72 29' name='' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='2110'>
+		<first byte='53'>
+			<match bytes='53 57 41 50 53 50 41 43 45 32 53 31 53 55 53 50 45 4E 44' name='Linux/i386 swap file (new style) with SWSUSP1 image' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='13822'>
+		<first byte='43'>
+			<match bytes='43 44 52 4F 4D' name='High Sierra CD-ROM filesystem data' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='16283'>
+		<first byte='43'>
+			<match bytes='43 44 30 30 31' name='ISO 9660 CD-ROM filesystem data (raw 2352 byte sectors)' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='17626'>
+		<first byte='19'>
+			<match bytes='19 54 01 19' name='Unix Fast File system [v2] (big-endian)' mime='application/octet-stream' ext=''/>
+			<match bytes='19 01 54 19' name='Unix Fast File system [v2] (little-endian)' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='65588'>
+		<first byte='52'>
+			<match bytes='52 65 49 73 45 72 46 73' name='ReiserFS V3.5' mime='application/octet-stream' ext=''/>
+			<match bytes='52 65 49 73 45 72 32 46 73' name='ReiserFS V3.6' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='91392'>
+		<first byte='12'>
+			<match bytes='12 01 41 80' name='D71 Image' mime='application/octet-stream' ext=''/>
+			<match bytes='12 01 41 00' name='D64 Image' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+	<offset at='399360'>
+		<first byte='28'>
+			<match bytes='28 03 44 00' name='D81 Image' mime='application/octet-stream' ext=''/>
+		</first>
+	</offset>
+</magic>
